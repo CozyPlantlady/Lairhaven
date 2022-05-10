@@ -26,8 +26,63 @@
             </a></li>
         </ul></navbar>
 
-        <div>
-            <h1> Here you can apply for minion apartment</h1>
+        <div id="form">
+            <h1> Application</h1>
+            <h2>Fill the form and start your new life in one of our exciting locations</h2>
+            <h3>Please fill the required fields marked with "*".</h3>
+
+            <div>
+                <label for="firstname">First name:</label>
+                <input id="firstname" class="required" type="text" name="firstname" required value="*">
+
+                <label for="lastname">Last name:</label>
+                <input id="lastname" class="required" type="text" name="lastname" required value="*">
+
+                <label for="aliasname">Alias:</label>
+                <input id="aliasname" type="text" name="aliasname">
+
+                <label for="occupation">Current occupation:</label>
+                <input id="occupation" type="text" name="occupation">
+
+                <label for="email">Email:</label>
+                <input id="email" class="required" type="email" name="email" required value="*">
+
+                
+
+                <h2>Which locations interests you:</h2>
+                <label for="formlocation">Option 1</label>
+                <input id="formlocation" type="checkbox" name="formlocation" value="location1" required>
+                <label for="formlocation">Option 2</label>
+                <input id="formlocation" type="checkbox" name="formlocation" value="location2">
+                <label for="formlocation">Option 3</label>
+                <input id="formlocation" type="checkbox" name="formlocation" value="location3">
+                <label for="formlocation">Option 4</label>
+                <input id="formlocation" type="checkbox" name="formlocation" value="location4">
+                <label for="formlocation">Option 5</label>
+                <input id="formlocation" type="checkbox" name="formlocation" value="location5">
+                <label for="formlocation">Option 6</label>
+                <input id="formlocation" type="checkbox" name="formlocation" value="location6">
+            
+                <label for="occupation">Please, tell us what you are looking for:</label>
+                <input id="occupation" type="text-field" name="occupation">
+               
+                <aside>
+                    <p>Our stylist are magicians, and will make any space suit your specific taste. 
+                    Dark Academia? Cottage core? Abandoned circus with a dash wild botanical garden with fallen leafs but also working internet connection? 
+                    If you can dream it, we can do it!*</p></aside>
+
+                    <p class="smallprint">Extra costs will be added to the final payment.</p>
+                </aside>
+
+                <label for="consent">I have read and agree with all that is written here. *</label>
+                <input id="consent" type="checkbox" name="consent" required>
+            
+                <input type="submit" value="Join us!">
+
+
+            </div>
+            
+           
         </div>
 
         </body>
