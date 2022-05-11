@@ -2,5 +2,20 @@ h1 {
     color:aquamarine;
 }
 
+/* Locations */
+
+#locations {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10%;
+
+}
+
+#locations img {
+    max-width: 300px;
+}
+flexbox {
+ 
+}
 /* Form */
 
