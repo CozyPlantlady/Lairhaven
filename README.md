@@ -75,3 +75,14 @@ Contact Customer Service
 
 ## CREDITS
 
+### COLOR SCHEME
+-50 Gorgeous Color Schemes From Award-Winning Websites:
+Nro 19: Minimal yet warm
+https://visme.co/blog/website-color-schemes/
+
+### Code from Love Running:
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}

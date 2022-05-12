@@ -1,6 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: hide;
+}
+
 header {
     height: 100rem;
-    background-image: url(../images/hallway2.jpg);
+    background-image: url(../images/city1.jpg);
+    max-height: 100rem;
 }
 
 h1 {
