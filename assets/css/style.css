@@ -2,18 +2,20 @@
     margin: 0;
     padding: 0;
     border: none;
-    overflow: hide;
 }
 
 body {
     background-color: #8e8d8a;
-    margin:auto;
 }
 
 header {
-    height: 100rem;
-    background-image: url(../images/city1.jpg);
-    max-height: 100rem;
+    height: 600px;
+    width: 100%;
+    background: url(../images/city1.jpg) no-repeat center center;
+}
+
+#headerbox {
+    background-color: black;
 }
 
 
