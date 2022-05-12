@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+/* Main page*/
+
 * {
     margin: 0;
     padding: 0;
@@ -8,20 +12,24 @@ body {
     background-color: #8e8d8a;
 }
 
+/* Header and hero-image*/
+
 header {
-    height: 600px;
+    height: 100vh;
     width: 100%;
     background: url(../images/city1.jpg) no-repeat center center;
 }
 
 #headerbox {
-    background-color: black;
+    float: right;
+    margin-right: 30px; 
+    margin-top: 30vh;
 }
-
 
 h1 {
     color:#e85a4f;
-    
+    font-family: Koulen, sans-serif;
+    font-size: 10vh;
     
 }
 
@@ -47,9 +55,14 @@ h1 {
 
 /* Form */
 
+/* For media screen 499px and under */
+
+    * {}
+
 /* For media screen 500px and up */
 
 @media screen and (min-width: 500px) {
+    
     #locations img {
         max-width: 45vw;
     }
