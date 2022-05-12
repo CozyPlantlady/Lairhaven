@@ -37,8 +37,13 @@ header h2 {
     font-size: 5vw;
 }
 
+/* Navigation bar*/
 
-
+    #navbar {
+        background-color: #e98074;
+        max-height: 5vh; 
+        width: 100%;
+    }
 /* Locations */
 
 #locations {
@@ -83,5 +88,10 @@ header h2 {
 @media screen and (min-width: 950px) {
     #locations img {
         max-width: 30vw;
+    }
+
+    #headerbox {
+      
+        margin-top: 20vh;
     }
 }
