@@ -31,12 +31,12 @@ header {
 header h1 {
     color:#e85a4f;
     font-family: Koulen, sans-serif;
-    font-size: 20vw;
+    font-size: 20vh;
     
 }
 
 header h2 {
-    font-size: 5vw;
+    font-size: 5vh;
 }
 
 /* Navigation bar*/
@@ -78,17 +78,20 @@ header h2 {
 
 /* WELCOME*/
 
-    #welcome {
-        font-family: 'Noto Serif', sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 20px;
-
+#welcome {
+    font-family: 'Noto Serif', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
     }
 
-    #welcome h2 {
-    font-size: 40px;
+#welcome p{ 
+    font-size: 25px;
+}
+
+#welcome h2 {
+    font-size: 5vh;
     margin-top: 30px;
     margin-bottom: 30px;
     }
@@ -96,17 +99,28 @@ header h2 {
 
     /* Bulletpoint */
 
-#bulletpoint ul {
-    list-style: none;
-}
-
 #bulletpoint {
-    padding: 20px 30px;
+    font-size: x-large;
+    padding: 50px 50px;
     border-style: dotted;
+    border-color: #d8c3a5;
+    border-radius: 2%;
     margin: 30px;
-    background-color: #d8c3a5;
-
+    background-color: #eae7dc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#bulletpoint ul {
+        list-style: none;
+    }
+    
+#bulletpoint li {
+        flex-direction: column;
+        align-items: center;
+    }
+    
 
 #bulletpoint h3 {
     font-family: 'Koulen';
