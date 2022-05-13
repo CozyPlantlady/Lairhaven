@@ -15,15 +15,17 @@ body {
 /* Header and hero-image*/
 
 header {
-    height: 75vh;
-    width: 10vw;
-    background: url(../images/castlephone.jpg) no-repeat center center;
+    position:relative;
+    height: 100vh;
+    width: 100%;
+    background: url(../images/castlephone2.jpg) no-repeat center center;
 }
 
 #headerbox {
-    float: right;
-    margin-right: 3vw; 
-    margin-top: 30vh;
+    position:absolute;
+    display: flex;
+    justify-items: flex-end;
+
 }
 
 header h1 {
@@ -39,7 +41,7 @@ header h2 {
 
 /* Navigation bar*/
 
-    #navbar {
+    .navbar {
         background-color: #e98074;
         width: 100%;
         font-size: 5vh;
@@ -47,20 +49,31 @@ header h2 {
 
     }
 
+    .navbar li {
+        list-style: none;
+    } 
 
-    #navbar li {
+    .navbar ul {
         display: flex;
         flex-direction: row;
-        justify-items: center;
+        justify-content: center;
     
     }
 
-    #navbar a {
+    .navbar a {
         text-decoration: none;
         color: black;
+        padding: 20px; 
 
     }
 
+    .navbar a:hover {
+        color: #8e8d8a;
+    }
+
+    .active > a {
+        color:#e85a4f;
+    }
 
 /* Locations */
 

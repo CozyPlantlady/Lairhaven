@@ -77,6 +77,10 @@ Contact Customer Service
  ## DEPLOYMENT
 
 ## CREDITS
+Pictures:
+
+Photo by form PxHere
+
 
 ### COLOR SCHEME
 -50 Gorgeous Color Schemes From Award-Winning Websites:
