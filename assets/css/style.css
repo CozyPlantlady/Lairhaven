@@ -80,8 +80,38 @@ header h2 {
 
     #welcome {
         font-family: 'Noto Serif', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+
     }
 
+    #welcome h2 {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+
+    /* Bulletpoint */
+
+#bulletpoint ul {
+    list-style: none;
+}
+
+#bulletpoint {
+    padding: 20px 30px;
+    border-style: dotted;
+    margin: 30px;
+    background-color: #d8c3a5;
+
+}
+
+#bulletpoint h3 {
+    font-family: 'Koulen';
+    font-size: 30px;
+}
 /* Locations */
 
 #locations {
