@@ -8,7 +8,9 @@ As a bonus this company does the hideout stylings to match the customers brand
 
 ## Design points
 
-Design point: mobile-first
+Design point: mobile-first. 
+- Goal is to make everything as flexible as possible
+- Minimum amount of code changes between different viewports
 
 ### User goals:
 What is their goal? What problem does this product or feature solve for them?
@@ -67,6 +69,7 @@ Contact Customer Service
 - Articles: Couple of articles with few quick tips and a pictures.
 " Dark Gothic is not for villains only!"
  - Customer feedback: Couple of opinions from customers (can have some fun here)
+ - Different color schemes for heroes and villains, can choose by clicking a button in menu
 
 
  ## TESTING

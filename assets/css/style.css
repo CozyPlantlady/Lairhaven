@@ -16,8 +16,8 @@ body {
 
 header {
     height: 75vh;
-    width: 100%;
-    background: url(../images/city1.jpg) no-repeat center center;
+    width: 10vw;
+    background: url(../images/castlephone.jpg) no-repeat center center;
 }
 
 #headerbox {
@@ -49,10 +49,10 @@ header h2 {
 
 
     #navbar li {
-        display: inline;
-        padding: 10px;
-        
-        
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+    
     }
 
     #navbar a {
@@ -94,10 +94,6 @@ header h2 {
     
     #locations img {
         max-width: 45vw;
-    }
-
-    body {
-        margin:auto;
     }
 }
 
