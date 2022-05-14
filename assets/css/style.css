@@ -12,6 +12,17 @@ body {
     background-color: #8e8d8a;
 }
 
+ h2 {
+     font-size: 5vh;
+     text-align: center;
+     font-family: 'Noto Serif', sans-serif;
+ }
+
+ p {
+     font-size: 21px;
+ }
+
+
 /* Header and hero-image*/
 
 header {
@@ -32,10 +43,6 @@ header h1 {
     font-family: Koulen, sans-serif;
     font-size: 20vh;
     
-}
-
-header h2 {
-    font-size: 5vh;
 }
 
 /* Navigation bar*/
@@ -72,6 +79,7 @@ header h2 {
 
     .active > a {
         color:#e85a4f;
+        border-style: dotted;
     }
 
 
@@ -82,15 +90,10 @@ header h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 50px 20px;
     }
 
-#welcome p{ 
-    font-size: 25px;
-}
-
 #welcome h2 {
-    font-size: 5vh;
     margin-top: 30px;
     margin-bottom: 30px;
     }
@@ -99,12 +102,12 @@ header h2 {
     /* Bulletpoint */
 
 #bulletpoint {
-    font-size: x-large;
+    font-size: xx-large;
     padding: 50px 50px;
     border-style: dotted;
     border-color: #d8c3a5;
     border-radius: 2%;
-    margin: 30px;
+    margin: 50px;
     background-color: #eae7dc;
     display: flex;
     flex-direction: column;
@@ -123,9 +126,24 @@ header h2 {
 
 #bulletpoint h3 {
     font-family: 'Koulen';
-    font-size: 30px;
+    font-size: 40px;
 }
-/* Locations */
+
+
+    /* LOCATIONS */
+
+#locations-box {
+    background-color: #d8c3a5;
+}
+
+#locations-box h2 {
+    padding: 1vh;
+} 
+#locations-box p {
+    text-align:center;
+    max-width:fit-content;
+
+}
 
 #locations {
     display: flex;
@@ -143,6 +161,7 @@ header h2 {
     background-color: #eae7dc;
     padding: 1rem;
     justify-content: center;
+    border-style: groove;
 }
 
 /* Form */
