@@ -15,9 +15,9 @@ body {
 /* Header and hero-image*/
 
 header {
-    height: 100vh;
+    height: 50vh;
     width: 100%;
-    background: url(../images/castlephone2.jpg) no-repeat center center;
+    background: url(../images/castlephone3.jpg) no-repeat center center;
     display: flex;
     justify-items: flex-end;
 }
@@ -163,13 +163,18 @@ header h2 {
 /* For media screen 950px and up */
 
 @media screen and (min-width: 950px) {
-    #locations img {
-        max-width: 30vw;
-    }
+    
 
+    header {
+        background: url(../images/castlephone2.jpg) no-repeat center center;
+        }
     #headerbox {
       
         margin-top: 20vh;
         justify-content: center;
+    }
+
+    #locations img {
+        max-width: 30vw;
     }
 }
