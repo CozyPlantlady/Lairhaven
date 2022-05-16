@@ -63,23 +63,20 @@ header h1 {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    
     }
 
-    .navbar a {
+    a {
         text-decoration: none;
         color: black;
         padding: 20px; 
-
     }
 
-    .navbar a:hover {
+    a:hover {
         color: #8e8d8a;
     }
 
     .active > a {
         color:#e85a4f;
-        border-style: dotted;
     }
 
 
@@ -99,7 +96,7 @@ header h1 {
     }
 
 
-    /* Bulletpoint */
+    /* BULLETPOINT */
 
 #bulletpoint {
     font-size: xx-large;
@@ -164,6 +161,19 @@ header h1 {
     border-style: groove;
 }
 
+/* FOOTER */
+
+#footerbox {
+    display: flex;
+    background-color:#e98074;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #d8c3a5;
+}
+
+#footerbox > a {
+    font-size: 30px;
+}
 /* Form */
 
 /* For media screen 499px and under */
