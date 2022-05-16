@@ -39,6 +39,7 @@ header h1 {
     color: #e85a4f;
     font-family: Koulen, sans-serif;
     font-size: 10vw;
+  
 
 }
 
@@ -46,8 +47,8 @@ header h1 {
 
 .navbar {
     background-color: #e98074;
-    width: 100%;
-    font-size: 5vh;
+    max-width: 100%;
+    font-size: 5vw;
     font-family: 'Koulen', sans-serif;
 
 }
