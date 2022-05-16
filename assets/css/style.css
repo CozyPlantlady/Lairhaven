@@ -190,7 +190,20 @@ footer p {
     font-size: 30px;
 }
 
-/* Form */
+/* FORM */
+
+.formbox {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.formbox input {
+    padding: 10px;
+    margin: 20px;
+}
 
 /* For media screen 499px and under using default */
 

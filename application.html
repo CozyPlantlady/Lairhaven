@@ -13,7 +13,7 @@
     <header>
         <div id="headerbox">
             <h1>LAIRHAVEN</h1>
-           <!--  <h2>Between Now And Den</h2>  -->
+            <!--  <h2>Between Now And Den</h2>  -->
         </div>
     </header>
 
@@ -28,46 +28,64 @@
             <li class="active"><a href="application.html">Application
 
                 </a></li>
-        </ul></div>
+        </ul>
+    </div>
 
     <div>
-        <form id="form" class="fancybox">
+        <div class="fancybox">
             <h2>Fill the form and start your new life in one of our exciting locations</h2>
-            <h3>Please fill the required fields marked with "*".</h3>
+            <p class="important">Please fill the required fields marked with "*".</p>
 
-            <div>
-                <label for="firstname">First name:</label>
-                <input id="firstname" class="required" type="text" name="firstname" required value="*">
+            <form id="form1">
+                <div class="formbox">
+                    <div>
+                        <label for="firstname">First name:</label>
+                        <input id="firstname" class="required" type="text" name="firstname" required value="*">
+                    </div>
 
-                <label for="lastname">Last name:</label>
-                <input id="lastname" class="required" type="text" name="lastname" required value="*">
+                    <div>
+                        <label for="lastname">Last name:</label>
+                        <input id="lastname" class="required" type="text" name="lastname" required value="*">
+                    </div>
 
-                <label for="aliasname">Alias:</label>
-                <input id="aliasname" type="text" name="aliasname">
+                    <div>
+                        <label for="aliasname">Alias:</label>
+                        <input id="aliasname" type="text" name="aliasname">
+                    </div>
 
-                <label for="occupation">Current occupation:</label>
-                <input id="occupation" type="text" name="occupation">
+                    <div>
+                        <label for="occupation">Current occupation:</label>
+                        <input id="occupation" type="text" name="occupation">
+                    </div>
 
-                <label for="email">Email:</label>
-                <input id="email" class="required" type="email" name="email" required value="*">
+                    <div>
+                        <label for="email">Email:</label>
+                        <input id="email" class="required" type="email" name="email" required value="*">
+                    </div>
+                </div>
 
-                <h2>Which locations interests you:</h2>
-                <label for="formlocation">Option 1</label>
-                <input id="formlocation" type="checkbox" name="formlocation" value="location1" required>
-                <label for="formlocation">Option 2</label>
-                <input id="formlocation" type="checkbox" name="formlocation" value="location2">
-                <label for="formlocation">Option 3</label>
-                <input id="formlocation" type="checkbox" name="formlocation" value="location3">
-                <label for="formlocation">Option 4</label>
-                <input id="formlocation" type="checkbox" name="formlocation" value="location4">
-                <label for="formlocation">Option 5</label>
-                <input id="formlocation" type="checkbox" name="formlocation" value="location5">
-                <label for="formlocation">Option 6</label>
-                <input id="formlocation" type="checkbox" name="formlocation" value="location6">
+                <div>
+                    <h2>Which locations interests you:</h2>
+                    <label for="formlocation">Option 1</label>
+                    <input id="formlocation" type="checkbox" name="formlocation" value="location1" required>
+                    <label for="formlocation">Option 2</label>
+                    <input id="formlocation" type="checkbox" name="formlocation" value="location2">
+                    <label for="formlocation">Option 3</label>
+                    <input id="formlocation" type="checkbox" name="formlocation" value="location3">
+                    <label for="formlocation">Option 4</label>
+                    <input id="formlocation" type="checkbox" name="formlocation" value="location4">
+                    <label for="formlocation">Option 5</label>
+                    <input id="formlocation" type="checkbox" name="formlocation" value="location5">
+                    <label for="formlocation">Option 6</label>
+                    <input id="formlocation" type="checkbox" name="formlocation" value="location6">
+                </div>
 
-                <label for="styling">Please, tell us more what you are looking for:</label>
-                <input id="styling" type="text-field" name="styling" placeholder="">
 
+
+                <div>
+                    <label for="styling">Please, tell us more what you are looking for:</label>
+                    <input id="styling" type="text-field" name="styling" placeholder="">
+                </div>
 
 
                 <aside>
@@ -80,14 +98,15 @@
                 <p class="smallprint">Extra costs will be added to the final payment.</p>
                 </aside>
 
-                <label for="consent">I have read and agree with all that is written here. *</label>
-                <input id="consent" type="checkbox" name="consent" required>
+                <div>
+                    <label for="consent">I have read and agree with all that is written here. *</label>
+                    <input id="consent" type="checkbox" name="consent" required>
 
-                <input type="submit" value="Join us!">
+                    <input type="submit" value="Join us!">
+                </div>
 
-
-            </div>
-
+            </form>
+        </div>
 
     </div>
 
