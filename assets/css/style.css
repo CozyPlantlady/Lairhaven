@@ -192,6 +192,10 @@ footer p {
 
 /* FORM */
 
+#form1 img {
+    height: auto;
+    width: 10vw;
+}
 .formbox {
     padding: 30px;
     display: flex;
