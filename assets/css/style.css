@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #8e8d8a;
+    background-color: whitesmoke;
 }
 
 h2 {
@@ -72,7 +72,7 @@ a {
 }
 
 a:hover {
-    color: #8e8d8a;
+    color: #d8c3a5;
 }
 
 .active>a {
@@ -131,7 +131,7 @@ a:hover {
 /* LOCATIONS */
 
 #locations-box {
-    background-color: #d8c3a5;
+    background-color: #e98074;
 }
 
 #locations-box h2 {
@@ -172,7 +172,7 @@ a:hover {
 footer {
     padding: 20px;
     border: 1px solid #d8c3a5;
-    background-color: #e98074;
+    background-color: #8e8d8a;
 }
 
 footer p {
