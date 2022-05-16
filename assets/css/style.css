@@ -30,7 +30,8 @@ header {
     width: 100vw;
     background: url(../images/castlephone3.jpg) no-repeat center center;
     display: flex;
-    justify-items: flex-end;
+    justify-items: center;
+    align-items: center;
 }
 
 #headerbox {}
@@ -38,7 +39,8 @@ header {
 header h1 {
     color: #e85a4f;
     font-family: Koulen, sans-serif;
-    font-size: 10vw;
+    font-size: 20vw;
+
   
 
 }
@@ -48,7 +50,7 @@ header h1 {
 .navbar {
     background-color: #e98074;
     max-width: 100%;
-    font-size: 5vw;
+    font-size: 7vw;
     font-family: 'Koulen', sans-serif;
 
 }
@@ -188,7 +190,7 @@ footer p {
 
 /* Form */
 
-/* For media screen 499px and under */
+/* For media screen 499px and under using default */
 
 
 
@@ -198,6 +200,10 @@ footer p {
 
     #locations img {
         max-width: 45vw;
+    }
+
+    .navbar {
+        font-size: 30px;
     }
 }
 
