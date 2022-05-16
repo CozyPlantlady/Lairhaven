@@ -27,7 +27,7 @@ body {
 
 header {
     height: 50vh;
-    width: 100%;
+    width: 100vw;
     background: url(../images/castlephone3.jpg) no-repeat center center;
     display: flex;
     justify-items: flex-end;
@@ -41,7 +41,7 @@ header {
 header h1 {
     color:#e85a4f;
     font-family: Koulen, sans-serif;
-    font-size: 20vh;
+    font-size: 10vw;
     
 }
 
