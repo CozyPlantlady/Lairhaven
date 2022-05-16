@@ -12,15 +12,15 @@ body {
     background-color: #8e8d8a;
 }
 
- h2 {
-     font-size: 5vh;
-     text-align: center;
-     font-family: 'Noto Serif', sans-serif;
- }
+h2 {
+    font-size: 5vh;
+    text-align: center;
+    font-family: 'Noto Serif', sans-serif;
+}
 
- p {
-     font-size: 21px;
- }
+p {
+    font-size: 21px;
+}
 
 
 /* Header and hero-image*/
@@ -33,51 +33,48 @@ header {
     justify-items: flex-end;
 }
 
-#headerbox {
-
-
-}
+#headerbox {}
 
 header h1 {
-    color:#e85a4f;
+    color: #e85a4f;
     font-family: Koulen, sans-serif;
     font-size: 10vw;
-    
+
 }
 
 /* Navigation bar*/
 
-    .navbar {
-        background-color: #e98074;
-        width: 100%;
-        font-size: 5vh;
-        font-family: 'Koulen', sans-serif;
+.navbar {
+    background-color: #e98074;
+    width: 100%;
+    font-size: 5vh;
+    font-family: 'Koulen', sans-serif;
 
-    }
+}
 
-    .navbar li {
-        list-style: none;
-    } 
+.navbar li {
+    list-style: none;
+}
 
-    .navbar ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-    a {
-        text-decoration: none;
-        color: black;
-        padding: 20px; 
-    }
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
 
-    a:hover {
-        color: #8e8d8a;
-    }
+a:hover {
+    color: #8e8d8a;
+}
 
-    .active > a {
-        color:#e85a4f;
-    }
+.active>a {
+    color: #e85a4f;
+}
 
 
 /* WELCOME*/
@@ -88,15 +85,15 @@ header h1 {
     flex-direction: column;
     align-items: center;
     margin: 50px 20px;
-    }
+}
 
 #welcome h2 {
     margin-top: 30px;
     margin-bottom: 30px;
-    }
+}
 
 
-    /* BULLETPOINT */
+/* BULLETPOINT */
 
 #bulletpoint {
     font-size: xx-large;
@@ -112,14 +109,14 @@ header h1 {
 }
 
 #bulletpoint ul {
-        list-style: none;
-    }
-    
+    list-style: none;
+}
+
 #bulletpoint li {
-        flex-direction: column;
-        align-items: center;
-    }
-    
+    flex-direction: column;
+    align-items: center;
+}
+
 
 #bulletpoint h3 {
     font-family: 'Koulen';
@@ -127,7 +124,7 @@ header h1 {
 }
 
 
-    /* LOCATIONS */
+/* LOCATIONS */
 
 #locations-box {
     background-color: #d8c3a5;
@@ -135,18 +132,19 @@ header h1 {
 
 #locations-box h2 {
     padding: 1vh;
-} 
+}
+
 #locations-box p {
-    text-align:center;
-    max-width:fit-content;
+    text-align: center;
+    max-width: fit-content;
 
 }
 
 #locations {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center; 
-   
+    justify-content: center;
+
 }
 
 #locations img {
@@ -163,17 +161,25 @@ header h1 {
 
 /* FOOTER */
 
-#footerbox {
-    display: flex;
-    background-color:#e98074;
-    justify-content: center;
+footer {
     padding: 20px;
     border: 1px solid #d8c3a5;
+    background-color: #e98074;
+}
+
+footer p {
+    display:flex;
+    justify-content: center;
+}
+#footerbox {
+    display: flex;
+    justify-content: center;
 }
 
 #footerbox > a {
     font-size: 30px;
 }
+
 /* Form */
 
 /* For media screen 499px and under */
@@ -183,7 +189,7 @@ header h1 {
 /* For media screen 500px and up */
 
 @media screen and (min-width: 500px) {
-    
+
     #locations img {
         max-width: 45vw;
     }
@@ -192,13 +198,14 @@ header h1 {
 /* For media screen 950px and up */
 
 @media screen and (min-width: 950px) {
-    
+
 
     header {
         background: url(../images/castlephone2.jpg) no-repeat center center;
-        }
+    }
+
     #headerbox {
-      
+
         margin-top: 20vh;
         justify-content: center;
     }
