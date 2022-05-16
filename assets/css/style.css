@@ -159,6 +159,10 @@ a:hover {
     border-style: groove;
 }
 
+.box a {
+    color: #e85a4f;
+}
+
 /* FOOTER */
 
 footer {
