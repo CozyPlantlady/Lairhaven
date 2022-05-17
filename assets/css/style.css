@@ -224,6 +224,20 @@ footer p {
     color:#e85a4f;
 
 }
+
+.button {
+    background-color:#e98074;
+    padding: 5px;
+    border-style:outset;
+    border-radius: 2px;
+    margin: 30px;
+    font-family: 'Koulen', sans-serif;
+    font-size: 30px;
+}
+
+.button:hover {
+    background-color: #e85a4f;
+}
 /* For media screen 499px and under using default */
 
 
