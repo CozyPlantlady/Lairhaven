@@ -128,7 +128,6 @@ a:hover {
 }
 
 
-
 /* LOCATIONS */
 
 #locations-box {
@@ -227,14 +226,8 @@ textarea {
 
 }
 
-.fancybox>aside {
-
-    justify-self: right;
-}
-
 .important {
     color: #e85a4f;
-
 }
 
 .button {
