@@ -201,7 +201,9 @@ footer p {
     max-width: 70vw;
 }
 
-
+textarea {
+    resize: none;
+}
 .formbox {
     padding: 30px;
     display: flex;
