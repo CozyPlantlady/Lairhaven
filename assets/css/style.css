@@ -203,6 +203,7 @@ textarea {
     resize: none;
 
 }
+
 .formbox {
     padding: 30px;
     display: flex;
@@ -247,6 +248,26 @@ textarea {
 .smallprint {
     font-family: 'Noto Serif', sans-serif;
     font-size: small;
+}
+
+/* HELP*/
+
+#faq {
+    margin: 50px;
+}
+
+#faq h2 {
+    margin: 30px 0 30px 0;
+}
+
+.question {
+    font-style:italic;
+    font-size: 21px;
+    color:#e85a4f;
+}
+
+.answer {
+
 }
 
 /* For media screen 499px and under using default */
