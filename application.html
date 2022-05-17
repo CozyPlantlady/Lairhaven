@@ -38,7 +38,6 @@
 
             
             <form id="form1">
-                <img src="/assets/images/hallway2.jpg">
                 <div class="formbox">
                     <div>
                         <label for="firstname">First name:</label>
@@ -54,7 +53,9 @@
                         <label for="aliasname">Alias:</label>
                         <input id="aliasname" type="text" name="aliasname">
                     </div>
+                </div>
 
+                <div class="formbox">
                     <div>
                         <label for="occupation">Current occupation:</label>
                         <input id="occupation" type="text" name="occupation">
@@ -66,7 +67,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="formbox">
                     <h2>Which locations interests you:</h2>
                     <label for="formlocation">Option 1</label>
                     <input id="formlocation" type="checkbox" name="formlocation" value="location1" required>
@@ -84,21 +85,10 @@
 
 
 
-                <div>
+                <div class="formbox">
                     <label for="styling">Please, tell us more what you are looking for:</label>
-                    <input id="styling" type="text-field" name="styling" placeholder="">
+                    <textarea id="styling" name="styling" placeholder="Testing" rows="6" columns="35"></textarea>
                 </div>
-
-
-                <aside>
-                    <p>Our stylist are magicians, and will make any space suit your specific taste.
-                        Dark Academia? Cottage core? Abandoned circus with a dash wild botanical garden with fallen
-                        leafs but also working internet connection?
-                        If you can dream it, we can do it!*</p>
-                </aside>
-
-                <p class="smallprint">Extra costs will be added to the final payment.</p>
-                </aside>
 
                 <div>
                     <label for="consent">I have read and agree with all that is written here. *</label>
@@ -109,7 +99,15 @@
 
             </form>
         </div>
+        <aside>
+            <p>Our stylist are magicians, and will make any space suit your specific taste.
+                Dark Academia? Cottage core? Abandoned circus with a dash wild botanical garden with fallen
+                leafs but also working internet connection?
+                If you can dream it, we can do it!*</p>
+        
 
+        <p class="smallprint">Extra costs will be added to the final payment.</p>
+        </aside>
     </div>
 
     <footer>
