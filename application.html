@@ -31,21 +31,21 @@
         </ul>
     </div>
 
-    <div>
-        <div class="fancybox">
-            <h2>Fill the form and start your new life in one of our exciting locations</h2>
+    <div>   
+        <div id="application" class="fancybox">
+            <h2>Fill the form</h2>
+            <p> and start your new life in one of our exciting locations</p>
             <p class="important">Please fill the required fields marked with "*".</p>
-
             
             <form id="form1">
                 <div class="formbox">
                     <div>
-                        <label for="firstname">First name:</label>
+                        <label for="firstname">First name <span class="important">*</span> :</label>
                         <input id="firstname" class="required" type="text" name="firstname" required value="*">
                     </div>
 
                     <div>
-                        <label for="lastname">Last name:</label>
+                        <label for="lastname">Last name <span class="important">*</span> :</label>
                         <input id="lastname" class="required" type="text" name="lastname" required value="*">
                     </div>
 
@@ -62,13 +62,13 @@
                     </div>
 
                     <div>
-                        <label for="email">Email:</label>
+                        <label for="email">Email <span class="important">*</span> :</label>
                         <input id="email" class="required" type="email" name="email" required value="*">
                     </div>
                 </div>
-
+                
+                <h2>Which locations interests you:</h2>
                 <div class="formbox">
-                    <h2>Which locations interests you:</h2>
                     <label for="formlocation">Option 1</label>
                     <input id="formlocation" type="checkbox" name="formlocation" value="location1" required>
                     <label for="formlocation">Option 2</label>
@@ -82,34 +82,24 @@
                     <label for="formlocation">Option 6</label>
                     <input id="formlocation" type="checkbox" name="formlocation" value="location6">
                 </div>
-
-
-
+           
                 <div class="formbox">
-                    <label for="styling">Please, tell us more what you are looking for:</label>
-                    <textarea id="styling" name="styling" placeholder="Testing" rows="6" columns="35"></textarea>
+                    <label for="styling">Please, tell us more what you are looking for:</label> <br>
+                    <textarea id="styling" name="styling" placeholder="Testing" rows="10" columns="60"></textarea>
                 </div>
 
                 <div>
-                    <label for="consent">I have read and agree with all that is written here. *</label>
-                    <input id="consent" type="checkbox" name="consent" required>
+                    <label for="consent">I have read and agree with all that is written here. <span class="important">*</span></label>
+                    <input id="consent" type="checkbox" name="consent" required><br>
+                    <label for="marketing">I wish to receive notifications of new locations.</label>
+                    <input id="marketing" type="checkbox" name="consent">
 
                     <input type="submit" value="Join us!">
                 </div>
 
             </form>
         </div>
-        <aside>
-            <p>Our stylist are magicians, and will make any space suit your specific taste.
-                Dark Academia? Cottage core? Abandoned circus with a dash wild botanical garden with fallen
-                leafs but also working internet connection?
-                If you can dream it, we can do it!*</p>
-        
-
-        <p class="smallprint">Extra costs will be added to the final payment.</p>
-        </aside>
     </div>
-
     <footer>
         <div id="footerbox">
             <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>

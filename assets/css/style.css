@@ -215,8 +215,14 @@ footer p {
     margin: 20px;
 }
 
-aside {
-    max-width: 25%;
+.fancybox > aside {
+
+    justify-self: right;
+}
+
+.important {
+    color:#e85a4f;
+
 }
 /* For media screen 499px and under using default */
 
