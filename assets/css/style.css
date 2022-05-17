@@ -41,7 +41,7 @@ header h1 {
     font-family: Koulen, sans-serif;
     font-size: 20vw;
 
-  
+
 
 }
 
@@ -124,7 +124,7 @@ a:hover {
 .fancybox h3 {
     font-family: 'Koulen';
     font-size: 40px;
-    color:#e85a4f;
+    color: #e85a4f;
 }
 
 
@@ -162,7 +162,7 @@ a:hover {
     padding: 1rem;
     justify-content: center;
     border-style: groove;
-    border-color:#d8c3a5
+    border-color: #d8c3a5
 }
 
 .box a {
@@ -178,15 +178,16 @@ footer {
 }
 
 footer p {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
+
 #footerbox {
     display: flex;
     justify-content: center;
 }
 
-#footerbox > a {
+#footerbox>a {
     font-size: 30px;
 }
 
@@ -215,20 +216,29 @@ footer p {
     margin: 20px;
 }
 
-.fancybox > aside {
+.formboxcolumn {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: flex-end;
+
+}
+
+.fancybox>aside {
 
     justify-self: right;
 }
 
 .important {
-    color:#e85a4f;
+    color: #e85a4f;
 
 }
 
 .button {
-    background-color:#e98074;
+    background-color: #e98074;
     padding: 5px;
-    border-style:outset;
+    border-style: outset;
     border-radius: 2px;
     margin: 30px;
     font-family: 'Koulen', sans-serif;
@@ -238,6 +248,8 @@ footer p {
 .button:hover {
     background-color: #e85a4f;
 }
+
+
 /* For media screen 499px and under using default */
 
 
