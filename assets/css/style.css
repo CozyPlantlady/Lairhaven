@@ -153,6 +153,7 @@ a:hover {
 
 #locations img {
     max-width: 100vw;
+    height: auto;
     border-radius: 2%;
 }
 
@@ -228,7 +229,7 @@ textarea {
 }
 
 .important {
-    color: #e85a4f;
+    color: #e2291c;
 }
 
 .button {
@@ -253,7 +254,7 @@ textarea {
 /* HELP*/
 
 #faq {
-    margin: 50px;
+    margin: 50px 0 50px 0;
 }
 
 #faq h2 {
@@ -290,6 +291,10 @@ textarea {
     .navbar {
         font-size: 30px;
     }
+
+    #faq {
+        margin: 50px;
+    }
 }
 
 /* For media screen 950px and up */
@@ -309,5 +314,9 @@ textarea {
 
     #locations img {
         max-width: 30vw;
+    }
+
+    #faq {
+        margin: 50px;
     }
 }

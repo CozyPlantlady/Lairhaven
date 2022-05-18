@@ -1,10 +1,10 @@
 # Lairhaven - website for hideout leasing service
 
-Lairhaven provides hideouts and headquarters for superheroes and villains. This company os neutral, and wont be taking part of any turf wars.
+Lairhaven provides hideouts and headquarters for superheroes and villains. This company is neutral, and wont be taking part of any turf wars.
 This company leases great locations that are safe and hidden even if they are in the middle of a city,
 but also looks for other locations like abandoned bunkers, caves, abandoned fairgrounds, castles, 
 abandoned factories and so on, since some customers prefer it that way.
-As a bonus this company does the hideout stylings to match the customers brand
+As a bonus this company does the hideout stylings to match the customers brand.
 
 ## Design points
 
@@ -22,7 +22,6 @@ What are some of the actions or operations they are likely to perform?
 - Styling of location
 - Moving in (secretly, with ninjas)
 - Customer care (24/7, because evil never sleeps)
-- Official minions and sidekicks have a chance to rent an underling apartment
 
 ### User Stories:
 - As a customer, I need to be able to easily see what website offers
