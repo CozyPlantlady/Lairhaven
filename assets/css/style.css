@@ -268,14 +268,12 @@ textarea {
 }
 
 .question {
-    font-style:italic;
+    font-style: italic;
     font-size: 21px;
-    color:#e85a4f;
+    color: #e85a4f;
 }
 
-.answer {
-
-}
+.answer {}
 
 /* For media screen 499px and under using default */
 
