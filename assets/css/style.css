@@ -229,7 +229,7 @@ textarea {
 }
 
 .important {
-    color: #e2291c;
+    color: darkred;
 }
 
 .button {
@@ -271,10 +271,14 @@ textarea {
 .question {
     font-style: italic;
     font-size: 21px;
-    color: #e85a4f;
+    color: darkred;
 }
 
-.answer {}
+#customercare>div{
+    display:flex;
+    flex-direction: row;
+
+}
 
 /* For media screen 499px and under using default */
 
