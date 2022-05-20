@@ -1,6 +1,6 @@
-# Lairhaven - website for hideout leasing service
+# Lairhaven - website for hideout rental service
 
-Lairhaven provides hideouts and headquarters for superheroes and villains. This company is neutral, and wont be taking part of any turf wars.
+Lairhaven provides hideouts and headquarters for superheroes and villains.
 This company leases great locations that are safe and hidden even if they are in the middle of a city,
 but also looks for other locations like abandoned bunkers, caves, abandoned fairgrounds, castles, 
 abandoned factories and so on, since some customers prefer it that way.
@@ -34,95 +34,113 @@ What are some of the actions or operations they are likely to perform?
 
 - Initial color scheme is from Visme.co, but I changed some colors to darker to make site more accessible, mainly red to a darker shade.
 
+### Other, more personal, goals
+- To learn to write commit messages 
+- Problem solving by testing
 
-## Features
+# Features
 
-### In all the pages:
+## In all the pages:
 
-Header:
+### Header:
 - Company name is responsive
 - Hero image changes size depending of how wide screen it is viewed on
 
-Navigation bar:
+### Navigation bar:
 - Links to other pages (Main, Help and Application form)
 - Active site is in red color, other links are black.
 - When hovered over, link changes color
 
-Footer:
+### Footer:
 - Company's contact information, Social media links
 
-### Main page: What the company has to offer
+## Main page: What the company has to offer
 
-Main:
+### Main:
 - Welcome text
 
-Bulletpoint list:
+### Bulletpoint list:
 - List of services the site offers
 - Bulletpoint has icons from FontAwesome as bullets
 - List is inside a stylized box
 
-Locations:
+### Locations:
 - Pictures and descriptions of locations
 - Each location box has a header, picture and description.
 - On screens 499px and under locations are in a column.
 - On screens between 500px and 949px locations are showing up two on a row
 - on screen 950px and up locations are three in a row
 
-Wrap up:
+### Wrap up:
 - Under locations there is a box that has text and links to other pages 
 
+## HELP-page
 
-
-### HELP-page
-
-FAQ:
+### FAQ:
 - Most asked questions and company history
 
-Contact Customer Service
+### Contact Customer Service
 - Information on how to contact
 
-### APPLICATION-page
-Fill the form:
+## APPLICATION-page
+### Fill the form:
 - 5 fields where customer can fill their information, which 3 are required
 - choose interesting locations (checkbox)
 - textarea to tell more of their wishes
 - User agreement checkboxes, one required
 - Button to send the form
 
-## Possible coming features:
+### Possible coming features:
 - Articles: Couple of articles with few quick tips and a pictures.
 " Dark Gothic is not for villains only!"
 - Customer feedback: Couple of opinions from customers (can have some fun here)
 - Different color schemes for heroes and villains, can choose by clicking a button in menu
 - New locations, like student apartments for minions and sidekicks
 
- ## TESTING
+ # TESTING
 
- Tested with The W3C CSS Validation service. Congratulations! No Error Found.
- Tested with nu HTML checker, all three pages. No errors or warnings to show.
- Tested with Google Chrome developer tool Lighthouse to find any remaining errors and to make page more accessible.
+ - Tested with The W3C CSS Validation service. Congratulations! No Error Found.
+ - Tested with nu HTML checker, all three pages. No errors or warnings to show.
+ - Tested with Google Chrome developer tool Lighthouse to find any remaining errors and to make page more accessible.
 
 ## ISSUES
 
--
+After having meeting with my mentor 19.5.2022 it was decided to change the page structure from 3 different page to one main page. This would make the page more mobile friendly. At the same time the navigation bar would be set to be sitting at the top of the screen by all times. Because of this change there will be a lot of change to the code.
+
+
+
 
 ## DEPLOYMENT
+
+- Site was deployed to Github Pages.
+- From Github, I chose the current project and Settings.
+- On the leftside of the page there is Pages.
+- Choose the "Main" branch
+- Site will be published.
+- This site is published at https://cozyplantlady.github.io/Lairhaven/
 
 
 
 ## CREDITS
-Pictures:
-- Photos by from PxHere
 
+Thank you to my very helpful mentor, Simen Daehlin. He has gien me a lot of good pointers on what I should do and how to improve my coding.
+
+### Media:
+- Photos are open source from PxHere
+
+### Icons
+- All the icons were taken from Font Awesome
 
 ### COLOR SCHEME
-- 50 Gorgeous Color Schemes From Award-Winning Websites:
-Nro 19: Minimal yet warm
-https://visme.co/blog/website-color-schemes/
-
+-This color scheme was suggested by my mentor Simen Daehlin
+![colors](assets/images/colorscheme.jpeg "Color scheme")
 ### Code from Love Running:
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
+REM double reset from Simen Daehlin
+html {font-size: 62,5%;}
+body {font-size: 1.6px}
