@@ -10,25 +10,21 @@
 }
 
 body {
-    background-color: whitesmoke;
-    font-size: 1,6rem;
+    background-color: #f6f7eb;
+    font-size: 1.6rem;
 }
 
 h2 {
-    font-size: 5vh;
+    font-size: 3rem;
     text-align: center;
     font-family: 'Noto Serif', sans-serif;
-}
-
-p {
-    font-size: 21px;
 }
 
 
 /* Header and hero-image*/
 
 header {
-    height: 50vh;
+    height: auto;
     width: 100vw;
     background: url(../images/castlephone3.jpg) no-repeat center center;
     display: flex;
@@ -36,15 +32,11 @@ header {
     align-items: center;
 }
 
-#headerbox {}
-
 header h1 {
     color: #e85a4f;
     font-family: Koulen, sans-serif;
     font-size: 20vw;
-
-
-
+    max-width: fit-content;
 }
 
 /* Navigation bar*/
@@ -52,7 +44,6 @@ header h1 {
 .navbar {
     background-color: #e98074;
     max-width: 100%;
-    font-size: 7vw;
     font-family: 'Koulen', sans-serif;
 
 }
@@ -69,8 +60,8 @@ header h1 {
 
 a {
     text-decoration: none;
-    color: black;
-    padding: 20px;
+    color: #000000;
+    padding: 2rem;
 }
 
 a:hover {
@@ -89,25 +80,24 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 20px;
+    margin: 5rem 2rem;
 }
 
 #welcome h2 {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 
 /* BULLETPOINT */
 
 .fancybox {
-    font-size: 21px;
     font-family: 'Koulen', sans-serif;
-    padding: 30px 50px 50px 50px;
+    padding: 3rem 5rem 5rem 5rem;
     border-style: outset;
     border-color: #d8c3a5;
     border-radius: 2%;
-    margin: 50px 10px 10px 10px;
+    margin: 5rem 1rem 1rem 1rem;
     background-color: #eae7dc;
     display: flex;
     flex-direction: column;
@@ -126,7 +116,7 @@ a:hover {
 .fancybox h3 {
     font-family: 'Koulen';
     font-size: 40px;
-    color: black;
+    color: #000000;
 }
 
 
@@ -137,7 +127,7 @@ a:hover {
 }
 
 #locations-box h2 {
-    padding: 1vh;
+    padding: 1rem;
 }
 
 #locations-box p {
@@ -154,17 +144,17 @@ a:hover {
 }
 
 #locations img {
-    max-width: 100vw;
+    max-width: 100%;
     height: auto;
     border-radius: 2%;
 }
 
 .box {
-    background-color: whitesmoke;
+    background-color: #f6f7eb;
     padding: 1rem;
     justify-content: center;
-    border-style: groove;
-    border-color: #d8c3a5
+    margin: 1rem;
+    border-radius: 1%;
 }
 
 .box a {
@@ -174,7 +164,7 @@ a:hover {
 /* FOOTER */
 
 footer {
-    padding: 20px;
+    padding: 2rem;
     border: 1px solid #d8c3a5;
     background-color: #8e8d8a;
 }
@@ -190,7 +180,7 @@ footer p {
 }
 
 #footerbox>a {
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 /* FORM */
@@ -208,7 +198,7 @@ textarea {
 }
 
 .formbox {
-    padding: 30px;
+    padding: 3rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -217,12 +207,12 @@ textarea {
 }
 
 .formbox input {
-    padding: 10px;
-    margin: 20px;
+    padding: 1rem;
+    margin: 2rem;
 }
 
 .formboxcolumn {
-    padding: 30px;
+    padding: 3rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -231,17 +221,17 @@ textarea {
 }
 
 .important {
-    color: darkred;
+    color: #b9314f;
 }
 
 .button {
     background-color: #e98074;
-    padding: 5px;
+    padding: 0.5rem;
     border-style: outset;
     border-radius: 2px;
-    margin: 30px;
+    margin: 3rem;
     font-family: 'Koulen', sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .button:hover {
@@ -256,24 +246,23 @@ textarea {
 /* HELP*/
 
 #faq {
-    margin: 50px 0 50px 0;
+    margin: 50rem 0;
 }
 
 #faq h2 {
-    margin: 30px 0 30px 0;
+    margin: 3rem 0;
 }
 
 .faq {
-    padding: 10px;
+    padding: 1rem;
     border: 1px solid #8e8d8a;
-    margin: 5px;
-    background-color: white;
+    margin: 0.5rem;
+    background-color: #f6f7eb;
 }
 
 .question {
     font-style: italic;
-    font-size: 21px;
-    color: darkred;
+    color: #b9314f;
 }
 
 #customercare>div{
@@ -295,11 +284,11 @@ textarea {
     }
 
     .navbar {
-        font-size: 30px;
+        font-size: 3rem;
     }
 
     #faq {
-        margin: 50px;
+        margin: 5rem;
     }
 }
 
@@ -314,7 +303,7 @@ textarea {
 
     #headerbox {
 
-        margin-top: 20vh;
+        margin-top: 2rem;
         justify-content: center;
     }
 
@@ -323,6 +312,6 @@ textarea {
     }
 
     #faq {
-        margin: 50px;
+        margin: 5rem;
     }
 }
