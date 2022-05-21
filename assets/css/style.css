@@ -21,6 +21,7 @@ a:hover {
 body {
     background-color: #f6f7eb;
     font-size: 1.6rem;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
 h1 {
@@ -57,6 +58,12 @@ header {
     justify-self: center;
     align-self: center;
 
+}
+
+#headerbox h2{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Koulen', sans-serif;
 }
 
 /* Navigation bar*/
