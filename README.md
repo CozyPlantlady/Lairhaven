@@ -134,13 +134,16 @@ Thank you to my very helpful mentor, Simen Daehlin. He has gien me a lot of good
 ### COLOR SCHEME
 -This color scheme was suggested by my mentor Simen Daehlin
 ![colors](assets/images/colorscheme.jpeg "Color scheme")
+
 ### Code from Love Running:
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
-
 REM double reset from Simen Daehlin
 html {font-size: 62,5%;}
 body {font-size: 1.6px}
+
+Code for Sticky Navbar:
+https://www.w3schools.com/howto/howto_js_navbar_sticky.asp

@@ -9,6 +9,15 @@
     font-size: 62,5%;
 }
 
+a {
+    text-decoration: none;
+    color: #f6f7eb;
+}
+
+a:hover {
+    color: #d8c3a5;
+}
+
 body {
     background-color: #f6f7eb;
     font-size: 1.6rem;
@@ -41,34 +50,34 @@ header h1 {
 
 /* Navigation bar*/
 
-.navbar {
-    background-color: #e98074;
-    max-width: 100%;
+#navbar {
+    background-color: #172a3a;
+    width: 100%;
+    height: auto;
     font-family: 'Koulen', sans-serif;
     position: fixed;
-
 }
 
-.navbar li {
+#navbar li {
     list-style: none;
+    padding: 0 0.5rem;
 }
 
-.navbar ul {
+#navbar ul {
     display: flex;
-    flex-direction: row;
-    justify-content: right;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+
 }
 
-a {
-    text-decoration: none;
-    color: #000000;
-    padding: 2rem;
-}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;}
 
-a:hover {
-    color: #d8c3a5;
-}
-
+    .sticky + .section {
+        padding-top: 60px;}
 
 /* WELCOME*/
 
