@@ -57,13 +57,15 @@ header {
     position: absolute;
     justify-self: center;
     align-self: center;
+    display:flex;
+    flex-direction:column;
 
 }
 
 #headerbox h2{
-    font-size: 3rem;
-    text-align: center;
-    font-family: 'Koulen', sans-serif;
+    font-size: 5vw;
+    font-family: 'Berkshire Swash', sans-serif;
+    color: #b9314F
 }
 
 /* Navigation bar*/
