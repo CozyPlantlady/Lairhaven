@@ -45,6 +45,7 @@ header h1 {
     background-color: #e98074;
     max-width: 100%;
     font-family: 'Koulen', sans-serif;
+    position: fixed;
 
 }
 
@@ -66,10 +67,6 @@ a {
 
 a:hover {
     color: #d8c3a5;
-}
-
-.active>a {
-    color: #e85a4f;
 }
 
 
