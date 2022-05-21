@@ -23,10 +23,16 @@ body {
     font-size: 1.6rem;
 }
 
+h1 {
+    color: #172a3a;
+    font-family:'Rock Salt', sans-serif;
+    font-size: 10vw;
+}
+
 h2 {
     font-size: 3rem;
     text-align: center;
-    font-family: 'Noto Serif', sans-serif;
+    font-family: 'Koulen', sans-serif;
 }
 
 
@@ -34,18 +40,23 @@ h2 {
 
 header {
     height: auto;
-    width: 100vw;
-    background: url(../images/castlephone3.jpg) no-repeat center center;
+    width: 100%;
+    background: url(../images/castlephone2.jpg) no-repeat center;
+    background-size: cover;
+    height:30rem;
     display: flex;
-    justify-items: center;
-    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
 }
 
-header h1 {
-    color: #e85a4f;
-    font-family: Koulen, sans-serif;
-    font-size: 20vw;
-    max-width: fit-content;
+#headerbox {
+    background-color:rgba(246, 247, 235, 0.4);
+    border-radius: 4px;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+
 }
 
 /* Navigation bar*/
@@ -76,7 +87,7 @@ header h1 {
     top: 0;
     width: 100%;}
 
-    .sticky + .section {
+    .sticky + .content {
         padding-top: 60px;}
 
 /* WELCOME*/
@@ -289,10 +300,6 @@ textarea {
         max-width: 45vw;
     }
 
-    .navbar {
-        font-size: 3rem;
-    }
-
     #faq {
         margin: 5rem;
     }
@@ -301,11 +308,6 @@ textarea {
 /* For media screen 950px and up */
 
 @media screen and (min-width: 950px) {
-
-
-    header {
-        background: url(../images/castlephone2.jpg) no-repeat center center;
-    }
 
     #headerbox {
 
