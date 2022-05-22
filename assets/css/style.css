@@ -58,6 +58,30 @@ h2 {
     width: 100%;
 }
 
+.important {
+    color: #b9314f;
+    font-style: italic;
+}
+
+.button {
+    background-color: #e98074;
+    padding: 0.5rem;
+    border-style: outset;
+    border-radius: 2px;
+    margin: 3rem;
+    font-family: 'Koulen', sans-serif;
+    font-size: 3rem;
+}
+
+.button:hover {
+    background-color: #e85a4f;
+}
+
+.smallprint {
+    font-family: 'Noto Serif', sans-serif;
+    font-size: small;
+}
+
 /* Header and hero-image*/
 
 header {
@@ -70,11 +94,6 @@ header {
     justify-content: center;
     align-content: center;
     position: relative;
-}
-
-#headerbox h2 {
-    font-size: 5vw;
-    color: #b9314F
 }
 
 /* Navigation bar*/
@@ -220,6 +239,10 @@ footer p {
 
 /* FORM */
 
+#application>p {
+    text-align: center;
+
+}
 #form1 {
     display: flex;
     flex-wrap: wrap;
@@ -229,7 +252,6 @@ footer p {
 
 textarea {
     resize: none;
-
 }
 
 .formbox {
@@ -238,7 +260,6 @@ textarea {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
-
 }
 
 .formbox input {
@@ -255,30 +276,8 @@ textarea {
 
 }
 
-.important {
-    color: #b9314f;
-}
 
-.button {
-    background-color: #e98074;
-    padding: 0.5rem;
-    border-style: outset;
-    border-radius: 2px;
-    margin: 3rem;
-    font-family: 'Koulen', sans-serif;
-    font-size: 3rem;
-}
-
-.button:hover {
-    background-color: #e85a4f;
-}
-
-.smallprint {
-    font-family: 'Noto Serif', sans-serif;
-    font-size: small;
-}
-
-/* HELP*/
+/* FAQ*/
 
 #faq {
     margin: 50rem 0;
