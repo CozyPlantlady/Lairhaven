@@ -105,7 +105,13 @@ What are some of the actions or operations they are likely to perform?
 
 ## ISSUES
 
-After having meeting with my mentor 19.5.2022 it was decided to change the page structure from 3 different page to one main page. This would make the page more mobile friendly. At the same time the navigation bar would be set to be sitting at the top of the screen by all times. Because of this change there will be a lot of change to the code.
+20/5:After having meeting with my mentor 19.5.2022 it was decided to change the page structure from 3 different page to one main page. This would make the page more mobile friendly. At the same time the navigation bar would be set to be sitting at the top of the screen by all times. Because of this change there will be a lot of change to the code.
+
+21/5: One of the main issues after moving all the information to one page was re-do navigation bar. It needed to have links to all the different sections to the page, and to make navigating in the site easier it should be accessible whole time. Hence, it needed to be sticky and stuck at the top of the page. I havent yet learned JavaScript to do this, so I have taken the needed code from W3 Schools tutorial.
+-Currently having problem to make navbar to move up when scrolling down, so navbar will be sitting over the header for now.
+-Trying to add a second header text to header. Too many different fonts.
+
+22/5: Adding margin to the page when screen is wider than 950px. Have to exclude Locations from the .section rule.
 
 
 
