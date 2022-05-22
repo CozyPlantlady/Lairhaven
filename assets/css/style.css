@@ -8,13 +8,17 @@
     margin: 0;
     padding: 0;
     border: none;
-    font-size: 62, 5%;
+    font-size: 62.5%;
 }
 
 body {
     background-color: #f6f7eb;
-    font-size: 1.6rem;
+    font-size: 16rem;
     font-family: 'Quattrocento Sans', sans-serif;
+}
+
+p {
+    font-size: 1.6rem;
 }
 
 header {
@@ -55,7 +59,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
     font-family: 'Koulen', sans-serif;
     padding-top: 3rem;
@@ -74,7 +78,6 @@ textarea {
     width: 100%;
     height: auto;
     font-family: 'Koulen', sans-serif;
-    font-size: 1.2rem;
     overflow: hidden;
 }
 
@@ -317,7 +320,7 @@ textarea {
 @media screen and (min-width: 500px) {
 
     #navbar {
-        font-size: 1.6rem;
+        font-size: rem;
     }
 
     #locations img {

@@ -6,6 +6,8 @@ but also looks for other locations like abandoned bunkers, caves, abandoned fair
 abandoned factories and so on, since some customers prefer it that way.
 As a bonus this company does the hideout stylings to match the customers brand.
 
+![lairhaven](assets/images/lairhaven-scale.jpeg "Lairhaven-webpage on different screen")
+
 ## Design points
 
 Design point: mobile-first. 
@@ -18,7 +20,7 @@ What is their goal? What problem does this product or feature solve for them?
 
 		
 What are some of the actions or operations they are likely to perform?
-- Customer meetup (online) to make the contract and if needed on location
+- Customer care (online) to make the contract
 - Styling of location
 - Moving in (secretly, with ninjas)
 - Customer care (24/7, because evil never sleeps)
@@ -31,16 +33,14 @@ What are some of the actions or operations they are likely to perform?
 
 
 ## Design Choices
-
-- Initial color scheme is from Visme.co, but I changed some colors to darker to make site more accessible, mainly red to a darker shade.
+- At the halfway of the project it was changed from three pages to have all the information in one page. This made it more mobile friendly.
+Also because of this I have added JavaScript code to make navigation bar visible when scrolling, even though it wasn't part of project 1 requirements.
 
 ### Other, more personal, goals
 - To learn to write commit messages 
 - Problem solving by testing
 
 # Features
-
-## In all the pages:
 
 ### Header:
 - Company name is responsive
