@@ -11,6 +11,34 @@
     font-size: 62, 5%;
 }
 
+body {
+    background-color: #f6f7eb;
+    font-size: 1.6rem;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+header {
+    height: auto;
+    width: 100%;
+    background: url(../images/flowerpot1.jpg) no-repeat left;
+    background-size: cover;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer {
+    padding: 2rem 2rem 10rem 2rem;
+    background-color: #172a3a;
+    color: #f6f7eb;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+}
+
 a {
     text-decoration: none;
     color: #f6f7eb;
@@ -18,13 +46,6 @@ a {
 
 a:hover {
     color: #d8c3a5;
-}
-
-body {
-    background-color: #f6f7eb;
-    font-size: 1.6rem;
-    font-family: 'Quattrocento Sans', sans-serif;
-
 }
 
 h1 {
@@ -41,23 +62,126 @@ h2 {
     color: #172a3a;
 }
 
+textarea {
+    resize: none;
+    padding: 1rem;
+}
+
+/* -----------ID------------*/
+
+#navbar {
+    background-color: #172a3a;
+    width: 100%;
+    height: auto;
+    font-family: 'Koulen', sans-serif;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 0.5rem;
+}
+
+#navbar ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#locations-section {
+    padding-top: 3rem;
+    background-color: #718f94;
+}
+
+#locations-section p {
+    text-align: center;
+    max-width: fit-content;
+    padding: 1rem;
+}
+
+#location-section h2 {
+    max-width: max-content;
+}
+
+#locations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #718f94;
+}
+
+#locations img {
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+#application>p {
+    text-align: center;
+
+}
+
+#form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-consent {
+    padding: 1rem;
+}
+
+#faq-section {
+    background-color: #718f94;
+    margin: 5rem 0;
+}
+
+#faq-section>p {
+    text-align: center;
+}
+
+#cc-section {
+    margin-bottom: 10rem;
+}
+
+#cc-section>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+#footerbox {
+    display: flex;
+    justify-content: center;
+}
+
+#footerbox>a {
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+
+/* ---------Classes---------*/
+
+
 .section {
     padding: 3rem 1rem;
 }
 
-.picture {
-    display: flex;
-    overflow: hidden;
-    height: auto;
-    max-width: 90rem;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-}
-
-.picture>img {
-    height: auto;
+.sticky {
+    position: fixed;
+    top: 0;
     width: 100%;
 }
 
@@ -85,61 +209,33 @@ h2 {
     text-align: center;
 }
 
-/* Header and hero-image*/
-
-header {
-    height: auto;
-    width: 100%;
-    background: url(../images/flowerpot1.jpg) no-repeat left;
-    background-size: cover;
-    height: 20rem;
+.picture {
     display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-/* Navigation bar*/
-
-#navbar {
-    background-color: #172a3a;
-    width: 100%;
-    height: auto;
-    font-family: 'Koulen', sans-serif;
-    font-size: 1.2rem;
     overflow: hidden;
+    height: auto;
+    max-width: 90rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
 }
 
-#navbar li {
-    list-style: none;
-    padding: 0 0.5rem;
-}
-
-#navbar ul {
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-end;
-    align-items: center;
-
-}
-
-/* To make the navbar stick to the top */
-
-.sticky {
-    position: fixed;
-    top: 0;
+.picture>img {
+    height: auto;
     width: 100%;
 }
 
-/* WELCOME*/
-
-#welcome {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.box {
+    background-color: #f6f7eb;
+    padding: 1rem;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 1%;
 }
 
-
-/* BULLETPOINT */
+.box a {
+    color: #e85a4f;
+}
 
 .fancybox {
     font-family: 'Koulen', sans-serif;
@@ -166,71 +262,6 @@ header {
     font-family: 'Rock Salt', sans-serif;
     font-size: 3rem;
     color: #172a3a;
-}
-
-
-/* LOCATIONS */
-
-#locations-section {
-    padding-top: 3rem;
-    background-color: #718f94;
-}
-
-#locations-section p{
-    text-align: center;
-    max-width: fit-content;
-    padding: 1rem;
-}
-
-#location-section h2 {
-    max-width: max-content;
-}
-
-#locations {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    background-color: #718f94;
-
-}
-
-#locations img {
-    width: 100%;
-    height: auto;
-    border-radius: 2%;
-
-}
-
-.box {
-    background-color: #f6f7eb;
-    padding: 1rem;
-    justify-content: center;
-    margin: 1rem;
-    border-radius: 1%;
-}
-
-.box a {
-    color: #e85a4f;
-}
-
-
-/* FORM */
-
-#application>p {
-    text-align: center;
-
-}
-
-#form {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-}
-
-textarea {
-    resize: none;
-    padding: 1rem;
 }
 
 .formbox {
@@ -266,21 +297,6 @@ textarea {
     padding: 1rem;
 }
 
-#form-consent {
-    padding: 1rem;
-}
-
-/* FAQ*/
-
-#faq-section {
-    background-color: #718f94;
-    margin: 5rem 0;
-}
-
-#faq-section>p {
-    text-align: center;
-}
-
 .faq {
     padding: 1rem;
     border: 1px solid #8e8d8a;
@@ -292,43 +308,6 @@ textarea {
     font-style: italic;
     color: #b9314f;
 }
-
-#cc-section {
-    margin-bottom: 10rem;
-}
-
-#cc-section>div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem;
-
-}
-
-/* FOOTER */
-
-footer {
-    padding: 2rem 2rem 10rem 2rem;
-    background-color: #172a3a;
-    color: #f6f7eb;
-}
-
-footer p {
-    display: flex;
-    justify-content: center;
-}
-
-#footerbox {
-    display: flex;
-    justify-content: center;
-}
-
-#footerbox>a {
-    font-size: 2rem;
-    padding: 0.5rem;
-}
-
 
 /* For media screen 499px and under using default */
 
@@ -370,7 +349,7 @@ footer p {
         justify-content: center;
     }
 
-    #locations img{
+    #locations img {
         max-width: 30vw;
     }
 
