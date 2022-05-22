@@ -113,7 +113,9 @@ What are some of the actions or operations they are likely to perform?
 
 22/5: Adding margin to the page when screen is wider than 950px. Have to exclude Locations from the .section rule and create  ID locations-section for it.
 Changed the hero-image to more neutral one, so that it doesnt matter if the header covers part of it in different viewports. Moved original image lower down.
-Problem: Unexpected space between sections, need to locate the problem.
+Problem: Unexpected space between sections, need to locate the problem. Found the typo from CSS.
+
+Got the sticky navbar working in one line but then its too wide for the narrower devices. Solution: Smaller font to smaller screens (1.2rem), change to 1.6rem screen 499px>.
 
 
 

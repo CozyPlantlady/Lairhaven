@@ -65,17 +65,17 @@ h2 {
 }
 
 .button {
-    background-color: #e98074;
+    background-color: #d8c3a5;
     padding: 0.5rem;
     border-style: outset;
     border-radius: 2px;
     margin: 3rem;
     font-family: 'Koulen', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .button:hover {
-    background-color: #e85a4f;
+    background-color: #718f94;
 }
 
 .smallprint {
@@ -103,6 +103,7 @@ header {
     width: 100%;
     height: auto;
     font-family: 'Koulen', sans-serif;
+    font-size:1.2rem;
     overflow:hidden;
 }
 
@@ -130,8 +131,6 @@ header {
 .sticky + .content {
     padding-top: 60px;
   }
-
-
 
 /* WELCOME*/
 
@@ -168,7 +167,7 @@ header {
 .fancybox h3 {
     font-family: 'Rock Salt', sans-serif;
     font-size: 3rem;
-    color: #b9314F;
+    color: #172a3a;
 }
 
 
@@ -262,7 +261,7 @@ textarea {
     padding: 1rem;
 }
 
-#consent {
+#form-consent {
     padding:1rem;
 }
 
@@ -333,6 +332,9 @@ footer p {
 
 @media screen and (min-width: 500px) {
 
+    #navbar{
+        font-size:1.6rem;
+    }
     #locations img {
         max-width: 45vw;
     }
