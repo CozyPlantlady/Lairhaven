@@ -52,6 +52,7 @@ h2 {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom:2rem;
 }
 .picture>img {
     height: auto;
@@ -174,19 +175,13 @@ header {
 
 #locations-section {
     padding-top: 5rem;
+    background-color: #718f94;
 }
 
 #locations-section p {
         text-align: center;
         max-width: fit-content;
         padding: 1rem;
-}
-
-#locations-section>h3 {
-    text-align: center;
-    padding: 1rem;
-    background-color: #718f94;
-    color: #eae7dc;
 }
 
 #locations {
@@ -268,12 +263,13 @@ textarea {
 
 /* FAQ*/
 
-#faq {
+#faq-section {
+    background-color: #718f94;
     margin: 50rem 0;
 }
 
-#faq h2 {
-    margin: 3rem 0;
+#faq-section>p {
+    text-align:center;
 }
 
 .faq {
