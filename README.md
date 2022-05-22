@@ -117,6 +117,9 @@ Problem: Unexpected space between sections, need to locate the problem. Found th
 
 Got the sticky navbar working in one line but then its too wide for the narrower devices. Solution: Smaller font to smaller screens (1.2rem), change to 1.6rem screen 499px>.
 
+Using Unicorn Revealer-app to find what port of the page sticks out. 
+Using Google Chrome Lighthouse developer tool to check for problems. Found dublicate ID "consent". Changed outer div ID to "form-consent"
+
 
 
 

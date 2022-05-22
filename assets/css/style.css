@@ -38,6 +38,7 @@ h2 {
     text-align: center;
     font-family: 'Koulen', sans-serif;
     padding-top: 3rem;
+    color:#172a3a;
 }
 
 .section {
@@ -127,10 +128,6 @@ header {
     top: 0;
     width: 100%;
 }
-
-.sticky + .content {
-    padding-top: 60px;
-  }
 
 /* WELCOME*/
 
