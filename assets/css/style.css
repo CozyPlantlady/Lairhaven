@@ -78,8 +78,8 @@ h2 {
 }
 
 .smallprint {
-    font-family: 'Noto Serif', sans-serif;
     font-size: small;
+    text-align: center;
 }
 
 /* Header and hero-image*/
@@ -215,27 +215,6 @@ header {
     color: #e85a4f;
 }
 
-/* FOOTER */
-
-footer {
-    padding: 2rem;
-    border: 1px solid #d8c3a5;
-    background-color: #8e8d8a;
-}
-
-footer p {
-    display: flex;
-    justify-content: center;
-}
-
-#footerbox {
-    display: flex;
-    justify-content: center;
-}
-
-#footerbox>a {
-    font-size: 3rem;
-}
 
 /* FORM */
 
@@ -255,7 +234,7 @@ textarea {
 }
 
 .formbox {
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -264,11 +243,11 @@ textarea {
 
 .formbox input {
     padding: 1rem;
-    margin: 2rem;
+    margin: 1rem 3rem 1rem 0;
 }
 
 .formboxcolumn {
-    padding: 3rem;
+    padding: 2rem 3rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -304,6 +283,29 @@ textarea {
     flex-direction: row;
 
 }
+
+/* FOOTER */
+
+footer {
+    padding: 2rem;
+    border: 1px solid #d8c3a5;
+    background-color: #8e8d8a;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+}
+
+#footerbox {
+    display: flex;
+    justify-content: center;
+}
+
+#footerbox>a {
+    font-size: 3rem;
+}
+
 
 /* For media screen 499px and under using default */
 
