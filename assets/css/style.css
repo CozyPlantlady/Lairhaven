@@ -72,20 +72,8 @@ header {
     position: relative;
 }
 
-/* #headerbox {
-    background-color: rgba(246, 247, 235, 0.4);
-    border-radius: 4px;
-    position: absolute;
-    justify-self: center;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-} */
-
-
 #headerbox h2 {
     font-size: 5vw;
-    font-family: 'Berkshire Swash', sans-serif;
     color: #b9314F
 }
 
