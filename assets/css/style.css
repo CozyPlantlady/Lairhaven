@@ -44,21 +44,35 @@ h2 {
     padding: 5rem 1rem;
 }
 
+.picture {
+    display: flex;
+    overflow: hidden;
+    height: auto;
+    max-width: 90rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.picture>img {
+    height: auto;
+    width: 100%;
+}
+
 /* Header and hero-image*/
 
 header {
     height: auto;
     width: 100%;
-    background: url(../images/flowerpot1.jpg) no-repeat center;
+    background: url(../images/flowerpot1.jpg) no-repeat left;
     background-size: cover;
-    height: 30rem;
+    height: 20rem;
     display: flex;
     justify-content: center;
     align-content: center;
     position: relative;
 }
 
-#headerbox {
+/* #headerbox {
     background-color: rgba(246, 247, 235, 0.4);
     border-radius: 4px;
     position: absolute;
@@ -66,8 +80,8 @@ header {
     align-self: center;
     display: flex;
     flex-direction: column;
+} */
 
-}
 
 #headerbox h2 {
     font-size: 5vw;
@@ -323,6 +337,13 @@ textarea {
 /* For media screen 950px and up */
 
 @media screen and (min-width: 950px) {
+
+    header {
+        background: url(../images/flowerpot1.jpg) no-repeat center;
+        background-size: cover;
+        height: 30rem;
+
+    }
 
     .section {
         padding: 5rem 5rem;
