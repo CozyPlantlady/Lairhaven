@@ -304,9 +304,9 @@ textarea {
 /* FOOTER */
 
 footer {
-    padding: 2rem;
-    border: 1px solid #d8c3a5;
-    background-color: #8e8d8a;
+    padding: 2rem 2rem 7rem 2rem;
+    background-color: #172a3a;
+    color:#f6f7eb;
 }
 
 footer p {
@@ -320,7 +320,8 @@ footer p {
 }
 
 #footerbox>a {
-    font-size: 3rem;
+    font-size: 2rem;
+    padding: 0.5rem;
 }
 
 
