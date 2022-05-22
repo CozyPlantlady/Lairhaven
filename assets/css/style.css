@@ -56,6 +56,7 @@ h1 {
     color: #172a3a;
     font-family: 'Rock Salt', sans-serif;
     font-size: 10vw;
+    
 }
 
 h2 {
@@ -320,7 +321,7 @@ textarea {
 @media screen and (min-width: 500px) {
 
     #navbar {
-        font-size: rem;
+        font-size: 10rem;
     }
 
     #locations img {
@@ -339,7 +340,7 @@ textarea {
     header {
         background: url(../images/flowerpot1.jpg) no-repeat center;
         background-size: cover;
-        height: 30rem;
+        height: 45rem;
 
     }
 
