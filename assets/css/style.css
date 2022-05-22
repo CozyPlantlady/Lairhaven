@@ -38,7 +38,7 @@ h2 {
     text-align: center;
     font-family: 'Koulen', sans-serif;
     padding-top: 3rem;
-    color:#172a3a;
+    color: #172a3a;
 }
 
 .section {
@@ -53,8 +53,9 @@ h2 {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
 }
+
 .picture>img {
     height: auto;
     width: 100%;
@@ -104,8 +105,8 @@ header {
     width: 100%;
     height: auto;
     font-family: 'Koulen', sans-serif;
-    font-size:1.2rem;
-    overflow:hidden;
+    font-size: 1.2rem;
+    overflow: hidden;
 }
 
 #navbar li {
@@ -115,7 +116,7 @@ header {
 
 #navbar ul {
     display: flex;
-    flex-flow: row ;
+    flex-flow: row;
     justify-content: flex-end;
     align-items: center;
 
@@ -175,10 +176,14 @@ header {
     background-color: #718f94;
 }
 
-#locations-section p {
-        text-align: center;
-        max-width: fit-content;
-        padding: 1rem;
+#locations-section p{
+    text-align: center;
+    max-width: fit-content;
+    padding: 1rem;
+}
+
+#location-section h2 {
+    max-width: max-content;
 }
 
 #locations {
@@ -190,9 +195,10 @@ header {
 }
 
 #locations img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 2%;
+
 }
 
 .box {
@@ -214,6 +220,7 @@ header {
     text-align: center;
 
 }
+
 #form {
     display: flex;
     flex-wrap: wrap;
@@ -246,6 +253,7 @@ textarea {
     flex-direction: column;
     justify-items: flex-end;
 }
+
 .formcheckbox>div {
     padding: 0.5rem;
 }
@@ -259,7 +267,7 @@ textarea {
 }
 
 #form-consent {
-    padding:1rem;
+    padding: 1rem;
 }
 
 /* FAQ*/
@@ -270,7 +278,7 @@ textarea {
 }
 
 #faq-section>p {
-    text-align:center;
+    text-align: center;
 }
 
 .faq {
@@ -286,10 +294,10 @@ textarea {
 }
 
 #cc-section {
-    margin-bottom:10rem;
+    margin-bottom: 10rem;
 }
 
-#cc-section>div{
+#cc-section>div {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -303,7 +311,7 @@ textarea {
 footer {
     padding: 2rem 2rem 10rem 2rem;
     background-color: #172a3a;
-    color:#f6f7eb;
+    color: #f6f7eb;
 }
 
 footer p {
@@ -329,9 +337,10 @@ footer p {
 
 @media screen and (min-width: 500px) {
 
-    #navbar{
-        font-size:1.6rem;
+    #navbar {
+        font-size: 1.6rem;
     }
+
     #locations img {
         max-width: 45vw;
     }
@@ -357,20 +366,19 @@ footer p {
     }
 
     #headerbox {
-
         margin-top: 2rem;
         justify-content: center;
     }
 
-    #locations img {
+    #locations img{
         max-width: 30vw;
     }
 
-    
-#locations-section>p {
-    padding: 1rem 5rem;}
-
-#locations-section p {
+    #locations-section>p {
         padding: 1rem 5rem;
-}
+    }
+
+    #locations-section p {
+        padding: 1rem 5rem;
+    }
 }
