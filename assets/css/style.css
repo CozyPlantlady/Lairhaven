@@ -222,7 +222,7 @@ header {
     text-align: center;
 
 }
-#form1 {
+#form {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -231,6 +231,7 @@ header {
 
 textarea {
     resize: none;
+    padding: 1rem;
 }
 
 .formbox {
@@ -246,15 +247,24 @@ textarea {
     margin: 1rem 3rem 1rem 0;
 }
 
-.formboxcolumn {
+.formcheckbox {
     padding: 2rem 3rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-items: flex-end;
-
+}
+.formcheckbox>div {
+    padding: 0.5rem;
 }
 
+.formboxcenter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    padding: 1rem;
+}
 
 /* FAQ*/
 
