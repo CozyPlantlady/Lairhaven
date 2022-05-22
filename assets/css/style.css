@@ -261,11 +261,14 @@ textarea {
     padding: 1rem;
 }
 
+#consent {
+    padding:1rem;
+}
 /* FAQ*/
 
 #faq-section {
     background-color: #718f94;
-    margin: 50rem 0;
+    margin: 5rem 0;
 }
 
 #faq-section>p {

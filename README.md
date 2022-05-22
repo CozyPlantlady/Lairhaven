@@ -109,9 +109,12 @@ What are some of the actions or operations they are likely to perform?
 
 21/5: One of the main issues after moving all the information to one page was re-do navigation bar. It needed to have links to all the different sections to the page, and to make navigating in the site easier it should be accessible whole time. Hence, it needed to be sticky and stuck at the top of the page. I havent yet learned JavaScript to do this, so I have taken the needed code from W3 Schools tutorial.
 -Currently having problem to make navbar to move up when scrolling down, so navbar will be sitting over the header for now.
--Trying to add a second header text to header. Too many different fonts.
+-Tried to add a second header text to header. Too many different fonts.
 
-22/5: Adding margin to the page when screen is wider than 950px. Have to exclude Locations from the .section rule.
+22/5: Adding margin to the page when screen is wider than 950px. Have to exclude Locations from the .section rule and create  ID locations-section for it.
+Changed the hero-image to more neutral one, so that it doesnt matter if the header covers part of it in different viewports. Moved original image lower down.
+Problem: Unexpected space between sections, need to locate the problem.
+
 
 
 
