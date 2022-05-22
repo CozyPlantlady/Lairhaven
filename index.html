@@ -8,10 +8,17 @@
     <meta name="description"
         content="Lairhaven's webpage for villains and heroes to find their perfect hideout. Cozy lairs and credible dens">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="file.js"></script>
     <title>Lairhaven - Rest assured</title>
 </head>
 
-<body>
+<body class="content">
+
+    <header>
+        <div id="headerbox">
+            <h1>LAIRHAVEN</h1>
+        </div>
+    </header>
 
     <div id="navbar">
         <ul>
@@ -27,12 +34,6 @@
                 </a></li>
         </ul>
     </div>
-
-    <header>
-        <div id="headerbox">
-            <h1>LAIRHAVEN</h1>
-        </div>
-    </header>
 
     <div id="welcome" class="section">
         <h2>WELCOME TO LAIRHAVEN!</h2>
@@ -275,6 +276,20 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/4268b46f9c.js" crossorigin="anonymous"></script>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
 </body>
 
 </html>

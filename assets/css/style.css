@@ -94,7 +94,6 @@ header {
     display: flex;
     justify-content: center;
     align-content: center;
-    position: relative;
 }
 
 /* Navigation bar*/
@@ -104,7 +103,7 @@ header {
     width: 100%;
     height: auto;
     font-family: 'Koulen', sans-serif;
-    position: fixed;
+    overflow:hidden;
 }
 
 #navbar li {
@@ -114,22 +113,24 @@ header {
 
 #navbar ul {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row ;
     justify-content: flex-end;
     align-items: center;
 
 }
 
 /* To make the navbar stick to the top */
+
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-.sticky+.content {
+.sticky + .content {
     padding-top: 60px;
-}
+  }
+
 
 
 /* WELCOME*/
