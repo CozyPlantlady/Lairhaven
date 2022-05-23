@@ -312,35 +312,36 @@ textarea {
     color: #b9314f;
 }
 
-/* For media screen 499px and under using default */
+/* For media screen 548px and under using default */
 
+/* For media screen 768px and up */
 
-/* For media screen 500px and up */
-
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 768px) {
 
     #navbar {
         font-size: 3rem;
     }
 
     #locations img {
-        max-width: 45vw;
+        max-width: 42vw;
     }
 
     #faq {
         margin: 5rem;
     }
+    body {
+        font-size: 2.1rem;
+    }
 }
 
-/* For media screen 950px and up */
+/* For media screen 900px and up */
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 900px) {
 
     header {
         background: url(../images/flowerpot1.jpg) no-repeat center;
         background-size: cover;
         height: 45rem;
-
     }
 
     .section {
