@@ -4,21 +4,20 @@
 
 /* Main */
 
+html {
+    font-size: 62.5%;
+}
 * {
     margin: 0;
     padding: 0;
     border: none;
-    font-size: 62.5%;
+
 }
 
 body {
     background-color: #f6f7eb;
-    font-size: 16rem;
-    font-family: 'Quattrocento Sans', sans-serif;
-}
-
-p {
     font-size: 1.6rem;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
 header {
