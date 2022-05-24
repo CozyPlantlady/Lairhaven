@@ -111,8 +111,8 @@ textarea {
     padding: 1rem;
 }
 
-#location-section h2 {
-    max-width: max-content;
+#locations-section h2 {
+   padding-top: 3rem;
 }
 
 #locations {
