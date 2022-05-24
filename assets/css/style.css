@@ -7,11 +7,11 @@
 html {
     font-size: 62.5%;
 }
+
 * {
     margin: 0;
     padding: 0;
     border: none;
-
 }
 
 body {
@@ -55,7 +55,6 @@ h1 {
     color: #172a3a;
     font-family: 'Rock Salt', sans-serif;
     font-size: 10vw;
-    
 }
 
 h2 {
@@ -72,7 +71,7 @@ textarea {
     font-size: 1.6rem;
 }
 
-/* -----------ID------------*/
+/* -----------ID's------------*/
 
 #navbar {
     background-color: #172a3a;
@@ -178,20 +177,16 @@ textarea {
 
 /* ---------Classes---------*/
 
-
-.section {
-    padding: 3rem 1rem;
+.box {
+    background-color: #f6f7eb;
+    padding: 1rem;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 1%;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.important {
-    color: #b9314f;
-    font-style: italic;
+.box a {
+    color: #e85a4f;
 }
 
 .button {
@@ -208,38 +203,6 @@ textarea {
     background-color: #718f94;
 }
 
-.smallprint {
-    font-size: small;
-    text-align: center;
-}
-
-.picture {
-    display: flex;
-    overflow: hidden;
-    height: auto;
-    max-width: 90rem;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-}
-
-.picture>img {
-    height: auto;
-    width: 100%;
-}
-
-.box {
-    background-color: #f6f7eb;
-    padding: 1rem;
-    justify-content: center;
-    margin: 1rem;
-    border-radius: 1%;
-}
-
-.box a {
-    color: #e85a4f;
-}
 
 .fancybox {
     font-family: 'Koulen', sans-serif;
@@ -266,6 +229,13 @@ textarea {
     font-family: 'Rock Salt', sans-serif;
     font-size: 3rem;
     color: #172a3a;
+}
+
+.faq {
+    padding: 1rem;
+    border: 1px solid #8e8d8a;
+    margin: 0.5rem;
+    background-color: #f6f7eb;
 }
 
 .formbox {
@@ -301,17 +271,50 @@ textarea {
     padding: 1rem;
 }
 
-.faq {
-    padding: 1rem;
-    border: 1px solid #8e8d8a;
-    margin: 0.5rem;
-    background-color: #f6f7eb;
+.important {
+    color: #b9314f;
+    font-style: italic;
+}
+
+.picture {
+    display: flex;
+    overflow: hidden;
+    height: auto;
+    max-width: 90rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.picture>img {
+    height: auto;
+    width: 100%;
 }
 
 .question {
     font-style: italic;
     color: #b9314f;
 }
+
+.section {
+    padding: 3rem 1rem;
+}
+
+/*This next part is taken from W3school tutorial*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.smallprint {
+    font-size: small;
+    text-align: center;
+}
+
+
+
 
 /* For media screen 548px and under using default */
 
@@ -330,6 +333,7 @@ textarea {
     #faq {
         margin: 5rem;
     }
+
     body {
         font-size: 2.1rem;
     }

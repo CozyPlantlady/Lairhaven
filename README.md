@@ -148,26 +148,51 @@ Found out with CSS validator that my double reset code for fonts (to make the de
 - Thank you to my very helpful mentor, Simen Daehlin. He has gien me a lot of good pointers on what I should do and how to improve my coding.
 
 ### Media:
-- Photos are open source from https://pxhere.com/
+- Photos are open source from [Pxhere](https://pxhere.com/)
 
 ### Icons
-- All the icons were taken from Font Awesome https://fontawesome.com/
+- All the icons were taken from [Font Awesome](https://fontawesome.com/)
 
 ### COLOR SCHEME
--This color scheme was suggested by my mentor Simen Daehlin
-![colors](assets/images/colorscheme.jpeg "Color scheme")
+-This color scheme was suggested by my mentor Simen Daehlin [colors](assets/images/colorscheme.jpeg! "Color scheme")
 
-### Code from Love Running:
+### Codes from other sources:
+
+- For clean start (From Love Running) 
 ```
     margin: 0;
     padding: 0;
     border: none;
 ```
-REM double reset from Simen Daehlin
+- REM double reset from Simen Daehlin
 ```
 html {font-size: 62,5%;}
 body {font-size: 1.6px}
 ```
 
-Code for Sticky Navbar:
-https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+- Code for Sticky Navbar from [W3schools tutorial](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
+```
+<script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+  ```
+  And 
+```
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+```
