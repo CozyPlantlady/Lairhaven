@@ -72,6 +72,7 @@ textarea {
 }
 
 /* -----------ID's------------*/
+/*in the order they are in the page*/
 
 #navbar {
     background-color: #172a3a;
@@ -176,6 +177,7 @@ textarea {
 
 
 /* ---------Classes---------*/
+/*In alphabetical order*/
 
 .box {
     background-color: #f6f7eb;
@@ -306,7 +308,7 @@ textarea {
     position: fixed;
     top: 0;
     width: 100%;
-}
+} /*That was that*/
 
 .smallprint {
     font-size: small;
@@ -369,4 +371,12 @@ textarea {
     #locations-section p {
         padding: 1rem 5rem;
     }
+}
+
+/* For media screen 1900px and up */
+
+@media screen and (min-width: 1900px) {
+    body {
+        margin: 0 10rem;}
+ 
 }
