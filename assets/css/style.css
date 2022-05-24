@@ -376,10 +376,10 @@ textarea {
 /* For media screen 1900px and up */
 
 @media screen and (min-width: 1900px) {
-    body {
+    #page-content {
         margin: 0 10rem;}
  
-        h1 {
-            font-size: 20rem;
+    h1 {
+        font-size: 20rem;
         }
 }

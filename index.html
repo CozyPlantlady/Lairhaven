@@ -19,6 +19,7 @@
         </div>
     </header>
 
+
     <div id="navbar">
         <ul>
             <li><a href="#welcome">Welcome
@@ -34,238 +35,251 @@
         </ul>
     </div>
 
-    <div id="welcome" class="section">
-        <h2>WELCOME TO LAIRHAVEN!</h2>
+    <div id="page-content">
+        
+        <div id="welcome" class="section">
+            <h2>WELCOME TO LAIRHAVEN!</h2>
 
-        <p>Lairhaven provides hideouts, dens and lairs for rent. As a neutral entity Lairhaven makes sure that <span
-                class="important">you</span>
-            have a safe place to continue your career and have a good nights sleep without a worry. Who knows, maybe
-            enough rest makes you change your mind and taking over the world wont seem so important after all!</p><br>
-        <p>So come in out from the rain and forget all the abandoned, moldy factory buildings (unless that is your
-            thing, we have
-            those too) and find your new, cozy, safe headquarters.</p>
+            <p>Lairhaven provides hideouts, dens and lairs for rent. As a neutral entity Lairhaven makes sure that <span
+                    class="important">you</span>
+                have a safe place to continue your career and have a good nights sleep without a worry. Who knows, maybe
+                enough rest makes you change your mind and taking over the world wont seem so important after all!</p>
+            <br>
+            <p>So come in out from the rain and forget all the abandoned, moldy factory buildings (unless that is your
+                thing, we have
+                those too) and find your new, cozy, safe headquarters.</p>
 
-        <div class="fancybox">
-            <h3>Lairhaven:</h3>
-            <ul>
-                <li><i class="fa-brands fa-fort-awesome"></i> Safe locations</li>
-                <li><i class="fa-solid fa-user-ninja"></i> Swift moving service</li>
-                <li><i class="fa-solid fa-paw"></i> Pets and familiars allowed</li>
-                <li><i class="fa-solid fa-user-secret"></i> Anonymous contract</li>
-                <li><i class="fa-solid fa-flask"></i> Crafted for your needs</li>
-            </ul>
+            <div class="fancybox">
+                <h3>Lairhaven:</h3>
+                <ul>
+                    <li><i class="fa-brands fa-fort-awesome"></i> Safe locations</li>
+                    <li><i class="fa-solid fa-user-ninja"></i> Swift moving service</li>
+                    <li><i class="fa-solid fa-paw"></i> Pets and familiars allowed</li>
+                    <li><i class="fa-solid fa-user-secret"></i> Anonymous contract</li>
+                    <li><i class="fa-solid fa-flask"></i> Crafted for your needs</li>
+                </ul>
+            </div>
         </div>
+
+        <div class="picture">
+            <img src="assets/images/castlephone2.jpg" alt="castle coming out from a phone screen">
+        </div>
+
+        <section id="locations-section">
+            <h2>Locations</h2>
+            <p> Our company owns and rents out several locations. Please contact our costumer care to inquire about the
+                availability of your dream location! We get new locations every week. We might have something waiting
+                just
+                for you...</p>
+            <div id="locations">
+                <div class="box">
+                    <h3>Object 597:<br>Moody hideout by the sea</h3>
+                    <img src="assets/images/piertn.jpg"
+                        alt="dark pier and gray stormy sea. Ruins at the end of the pier.">
+                    <p>Make your point and move to a seaside location! We have made sure that the actual hideout is dry
+                        and
+                        cozy.</p>
+                </div>
+                <div class="box">
+                    <h3>Object 253:<br>Room with tech spirit</h3>
+                    <img src="assets/images/abandonedtechtn.jpg" alt="Abandoned tech room with old machines">
+                    <p>This tech hideout is back in market after previous owner disappeared.</p>
+                </div>
+                <div class="box">
+                    <h3>Object 108:<br>Hideout with charm</h3>
+                    <img src="assets/images/window3tn.jpg"
+                        alt="Room with dark wooden walls with a lot of details and window with glasswork. Window is open.">
+                    <p>Beautiful woodwork, totally not haunted.</p>
+                </div>
+                <div class="box">
+                    <h3>Object 34:<br>Away castle</h3>
+                    <img src="assets/images/castletn.jpg" alt="White castle on a snowy mountain">
+                    <p>Beautiful location for having animals, like hybrid wolfes!</p>
+                </div>
+                <div class="box">
+                    <h3>Object 213:<br>Clean slate</h3>
+                    <img src="assets/images/lightroomtn.jpg" alt="Empty white open office space">
+                    <p>Start from scratch! This location is ready for your personal touch</p>
+                </div>
+                <div class="box">
+                    <h3>Object 412:<br>Cave</h3>
+                    <img src="assets/images/cavetn.jpg"
+                        alt="inside of big a cave, light is coming from outside. There is person standing in the middle looking out.">
+                    <p>This could be a low scale hideout, or your wine cellar. You decide!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div id="application">
+                <h2>Join us!</h2>
+                <p> Fill the form to start your new life in one of our exciting locations</p>
+                <p class="important">Please fill the required fields marked with "*".</p>
+
+                <form id="form">
+                    <div class="formbox">
+                        <div>
+                            <label for="firstname"><span class="important">*</span> First name:</label>
+                            <input id="firstname" class="required" type="text" name="firstname" required>
+                        </div>
+
+                        <div>
+                            <label for="lastname"><span class="important">*</span> Last name:</label>
+                            <input id="lastname" class="required" type="text" name="lastname" required>
+                        </div>
+
+                        <div>
+                            <label for="aliasname">Alias:</label>
+                            <input id="aliasname" type="text" name="aliasname">
+                        </div>
+                    </div>
+
+                    <div class="formbox">
+                        <div>
+                            <label for="occupation">Current occupation:</label>
+                            <input id="occupation" type="text" name="occupation">
+                        </div>
+
+                        <div>
+                            <label for="email"><span class="important">*</span> Email:</label>
+                            <input id="email" class="required" type="email" name="email" required>
+                        </div>
+                    </div>
+
+                    <p class="important formbox">Which locations interests you:</p>
+                    <div class="formcheckbox">
+                        <div>
+                            <input id="formlocation1" type="checkbox" name="formlocation" value="location1">
+                            <label for="formlocation1">Object 597: Moody hideout</label>
+                        </div>
+                        <div>
+                            <input id="formlocation2" type="checkbox" name="formlocation" value="location2">
+                            <label for="formlocation2">Object 253: Location with tech spirit</label>
+                        </div>
+                        <div>
+                            <input id="formlocation3" type="checkbox" name="formlocation" value="location3">
+                            <label for="formlocation3">Object 108: Hideout with charm</label>
+                        </div>
+                        <div>
+                            <input id="formlocation4" type="checkbox" name="formlocation" value="location4">
+                            <label for="formlocation4">Object 34: Away castle</label>
+                        </div>
+                        <div>
+                            <input id="formlocation5" type="checkbox" name="formlocation" value="location5">
+                            <label for="formlocation5">Object 213: Clean slate</label>
+                        </div>
+                        <div>
+                            <input id="formlocation6" type="checkbox" name="formlocation" value="location6">
+                            <label for="formlocation6">Object 412: Cave</label>
+                        </div><br>
+                    </div>
+                    <div class="formboxcenter important">
+                        <label for="styling">Tell us more what you are looking for:</label> <br>
+                        <textarea id="styling" name="styling"
+                            placeholder="I want to move to a farm and start raising chickens" rows="10" cols="30"
+                            minlength="1" maxlength="1000"></textarea>
+                    </div>
+
+                    <div id="form-consent">
+                        <input id="consent" type="checkbox" name="consent" required>
+                        <label for="consent"><span class="important">*</span>I have read the small print and agree with
+                            all
+                            that is written
+                            there.</label><br>
+                        <input id="marketing" type="checkbox" name="marketing">
+                        <label for="marketing">I wish to receive notifications of new locations.</label>
+
+                    </div>
+                    <div>
+                        <input class="button" type="submit" value="Join us!">
+                    </div>
+
+                    <p class="smallprint">Lairhaven will not take any responsibility over locations after contract is
+                        signed. In case the hideout is
+                        found out by opposing faculty, client gets caught or is otherwise unable to pay their monthly
+                        fee it
+                        will be collected some other way. Most likely by ninjas. </p>
+
+                </form>
+            </div>
+        </section>
+
+        <section id="faq-section" class="section">
+            <h2>FAQs:</h2>
+            <p>Most asked questions. Check these before contacting customer care!</p>
+
+            <div class="faq">
+                <p class="question">Where is the *** location?</p>
+                <p>Unfortunately we can't tell the exact location until the contract is written.</p>
+            </div>
+
+            <div class="faq">
+                <p class="question">What do I pay?</p>
+                <p>You pay monthly fee for the location, unless you want to buy it all for your self!
+                    Please contact customer care for any given time to change your contract. There is additional fee if
+                    you
+                    want to <span class="important">get your place decorated</span> by us, which we do gladly! You can
+                    also
+                    choose to use our <span class="important">ninjas</span> for
+                    when you are moving in sneakily. Ninjas are for moving only, and can't be hired as henchmen.</p>
+            </div>
+
+            <div class="faq">
+                <p class="question">I'm not a designer, how to I make my hideout look nice?</p>
+                <p>Are you an up and coming hero, but still looking for your personal style? Is your parents
+                    basement starting to feel too cramped for all the gadgets? Are you the worst nightmare our city has
+                    ever
+                    seen, but your crib looks like granma's tearoom? Not to worry, we are here for you! <span
+                        class="important">We do personalized
+                        hideout decorations!</span></p>
+            </div>
+
+            <div class="faq">
+                <p class="question">What happens if I *krhm* get caught?</p>
+                <p>Your contract is binding 2 months after you cancel it + any additional fees. We will
+                    however empty the location for you.</p>
+            </div>
+
+            <div class="faq">
+                <p class="question">Who owns the company?</p>
+                <p>The founder of the company wants to remain anonymous, but used to go around as "The
+                    Prettifier". The Prettifier has a long history of decorating houses. At first they used to do it
+                    without permission. <br>
+                    "I was quite a rascal in my youth, and was often called chaotic neutral. I used to
+                    break in to any house and re-decorate it. It didn't matter who was living there. One time I broke in
+                    to
+                    the Batcave and made it look like Hello Kitty was living there!"<br>
+                    "It was a lucky coincidence that was able to make a career out of it. Someone had heard about me and
+                    asked if I
+                    wanted to re-decorate their lair! First I was against it, but then I was offered a lot of money and
+                    said
+                    yes!"
+                </p>
+            </div>
+
+            <div class="faq">
+                <p class="question">Do you really have mover ninjas?</p>
+                <p>Yes, yes we do.</p>
+            </div>
+
+        </section>
+
+        <section class="section" id="cc-section">
+            <div>
+                <h2>Customer Care</h2>
+            </div>
+            <div>
+                <p class="important">24/7, since evil never sleeps
+                </p>
+            </div>
+            <div>
+                <p><i class="fa-solid fa-phone"></i> (0) 123 4567</p>
+            </div>
+            <div>
+                <p><i class="fa-solid fa-envelopes-bulk"></i> cc@lairhaven.com</p>
+            </div>
+        </section>
     </div>
-
-    <div class="picture">
-        <img src="assets/images/castlephone2.jpg" alt="castle coming out from a phone screen">
-    </div>
-
-    <section id="locations-section">
-        <h2>Locations</h2>
-        <p> Our company owns and rents out several locations. Please contact our costumer care to inquire about the
-            availability of your dream location! We get new locations every week. We might have something waiting just
-            for you...</p>
-        <div id="locations">
-            <div class="box">
-                <h3>Object 597:<br>Moody hideout by the sea</h3>
-                <img src="assets/images/piertn.jpg" alt="dark pier and gray stormy sea. Ruins at the end of the pier.">
-                <p>Make your point and move to a seaside location! We have made sure that the actual hideout is dry and
-                    cozy.</p>
-            </div>
-            <div class="box">
-                <h3>Object 253:<br>Room with tech spirit</h3>
-                <img src="assets/images/abandonedtechtn.jpg" alt="Abandoned tech room with old machines">
-                <p>This tech hideout is back in market after previous owner disappeared.</p>
-            </div>
-            <div class="box">
-                <h3>Object 108:<br>Hideout with charm</h3>
-                <img src="assets/images/window3tn.jpg"
-                    alt="Room with dark wooden walls with a lot of details and window with glasswork. Window is open.">
-                <p>Beautiful woodwork, totally not haunted.</p>
-            </div>
-            <div class="box">
-                <h3>Object 34:<br>Away castle</h3>
-                <img src="assets/images/castletn.jpg" alt="White castle on a snowy mountain">
-                <p>Beautiful location for having animals, like hybrid wolfes!</p>
-            </div>
-            <div class="box">
-                <h3>Object 213:<br>Clean slate</h3>
-                <img src="assets/images/lightroomtn.jpg" alt="Empty white open office space">
-                <p>Start from scratch! This location is ready for your personal touch</p>
-            </div>
-            <div class="box">
-                <h3>Object 412:<br>Cave</h3>
-                <img src="assets/images/cavetn.jpg"
-                    alt="inside of big a cave, light is coming from outside. There is person standing in the middle looking out.">
-                <p>This could be a low scale hideout, or your wine cellar. You decide!</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div id="application">
-            <h2>Join us!</h2>
-            <p> Fill the form to start your new life in one of our exciting locations</p>
-            <p class="important">Please fill the required fields marked with "*".</p>
-
-            <form id="form">
-                <div class="formbox">
-                    <div>
-                        <label for="firstname"><span class="important">*</span> First name:</label>
-                        <input id="firstname" class="required" type="text" name="firstname" required>
-                    </div>
-
-                    <div>
-                        <label for="lastname"><span class="important">*</span> Last name:</label>
-                        <input id="lastname" class="required" type="text" name="lastname" required>
-                    </div>
-
-                    <div>
-                        <label for="aliasname">Alias:</label>
-                        <input id="aliasname" type="text" name="aliasname">
-                    </div>
-                </div>
-
-                <div class="formbox">
-                    <div>
-                        <label for="occupation">Current occupation:</label>
-                        <input id="occupation" type="text" name="occupation">
-                    </div>
-
-                    <div>
-                        <label for="email"><span class="important">*</span> Email:</label>
-                        <input id="email" class="required" type="email" name="email" required>
-                    </div>
-                </div>
-
-                <p class="important formbox">Which locations interests you:</p>
-                <div class="formcheckbox">
-                    <div>
-                        <input id="formlocation1" type="checkbox" name="formlocation" value="location1">
-                        <label for="formlocation1">Object 597: Moody hideout</label>
-                    </div>
-                    <div>
-                        <input id="formlocation2" type="checkbox" name="formlocation" value="location2">
-                        <label for="formlocation2">Object 253: Location with tech spirit</label>
-                    </div>
-                    <div>
-                        <input id="formlocation3" type="checkbox" name="formlocation" value="location3">
-                        <label for="formlocation3">Object 108: Hideout with charm</label>
-                    </div>
-                    <div>
-                        <input id="formlocation4" type="checkbox" name="formlocation" value="location4">
-                        <label for="formlocation4">Object 34: Away castle</label>
-                    </div>
-                    <div>
-                        <input id="formlocation5" type="checkbox" name="formlocation" value="location5">
-                        <label for="formlocation5">Object 213: Clean slate</label>
-                    </div>
-                    <div>
-                        <input id="formlocation6" type="checkbox" name="formlocation" value="location6">
-                        <label for="formlocation6">Object 412: Cave</label>
-                    </div><br>
-                </div>
-                <div class="formboxcenter important">
-                    <label for="styling">Tell us more what you are looking for:</label> <br>
-                    <textarea id="styling" name="styling"
-                        placeholder="I want to move to a farm and start raising chickens" rows="10" cols="30"
-                        minlength="1" maxlength="1000"></textarea>
-                </div>
-
-                <div id="form-consent">
-                    <input id="consent" type="checkbox" name="consent" required>
-                    <label for="consent"><span class="important">*</span>I have read the small print and agree with all
-                        that is written
-                        there.</label><br>
-                    <input id="marketing" type="checkbox" name="marketing">
-                    <label for="marketing">I wish to receive notifications of new locations.</label>
-
-                </div>
-                <div>
-                    <input class="button" type="submit" value="Join us!">
-                </div>
-
-                <p class="smallprint">Lairhaven will not take any responsibility over locations after contract is
-                    signed. In case the hideout is
-                    found out by opposing faculty, client gets caught or is otherwise unable to pay their monthly fee it
-                    will be collected some other way. Most likely by ninjas. </p>
-
-            </form>
-        </div>
-    </section>
-
-    <section id="faq-section" class="section">
-        <h2>FAQs:</h2>
-        <p>Most asked questions. Check these before contacting customer care!</p>
-
-        <div class="faq">
-            <p class="question">Where is the *** location?</p>
-            <p>Unfortunately we can't tell the exact location until the contract is written.</p>
-        </div>
-
-        <div class="faq">
-            <p class="question">What do I pay?</p>
-            <p>You pay monthly fee for the location, unless you want to buy it all for your self!
-                Please contact customer care for any given time to change your contract. There is additional fee if you
-                want to <span class="important">get your place decorated</span> by us, which we do gladly! You can also
-                choose to use our <span class="important">ninjas</span> for
-                when you are moving in sneakily. Ninjas are for moving only, and can't be hired as henchmen.</p>
-        </div>
-
-        <div class="faq">
-            <p class="question">I'm not a designer, how to I make my hideout look nice?</p>
-            <p>Are you an up and coming hero, but still looking for your personal style? Is your parents
-                basement starting to feel too cramped for all the gadgets? Are you the worst nightmare our city has ever
-                seen, but your crib looks like granma's tearoom? Not to worry, we are here for you! <span
-                    class="important">We do personalized
-                    hideout decorations!</span></p>
-        </div>
-
-        <div class="faq">
-            <p class="question">What happens if I *krhm* get caught?</p>
-            <p>Your contract is binding 2 months after you cancel it + any additional fees. We will
-                however empty the location for you.</p>
-        </div>
-
-        <div class="faq">
-            <p class="question">Who owns the company?</p>
-            <p>The founder of the company wants to remain anonymous, but used to go around as "The
-                Prettifier". The Prettifier has a long history of decorating houses. At first they used to do it
-                without permission. <br>
-                "I was quite a rascal in my youth, and was often called chaotic neutral. I used to
-                break in to any house and re-decorate it. It didn't matter who was living there. One time I broke in to
-                the Batcave and made it look like Hello Kitty was living there!"<br>
-                "It was a lucky coincidence that was able to make a career out of it. Someone had heard about me and
-                asked if I
-                wanted to re-decorate their lair! First I was against it, but then I was offered a lot of money and said
-                yes!"
-            </p>
-        </div>
-
-        <div class="faq">
-            <p class="question">Do you really have mover ninjas?</p>
-            <p>Yes, yes we do.</p>
-        </div>
-
-    </section>
-
-    <section class="section" id="cc-section">
-        <div>
-            <h2>Customer Care</h2>
-        </div>
-        <div>
-            <p class="important">24/7, since evil never sleeps
-            </p>
-        </div>
-        <div>
-            <p><i class="fa-solid fa-phone"></i> (0) 123 4567</p>
-        </div>
-        <div>
-            <p><i class="fa-solid fa-envelopes-bulk"></i> cc@lairhaven.com</p>
-        </div>
-    </section>
-
 
     <footer>
         <p>Follow our stories!</p>
