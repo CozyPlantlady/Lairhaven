@@ -32,7 +32,7 @@ header {
 }
 
 footer {
-    padding: 2rem 2rem 10rem 2rem;
+    padding: 2rem 2rem 40rem 2rem;
     background-color: #172a3a;
     color: #f6f7eb;
 }
@@ -379,4 +379,7 @@ textarea {
     body {
         margin: 0 10rem;}
  
+        h1 {
+            font-size: 20rem;
+        }
 }
