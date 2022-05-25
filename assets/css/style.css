@@ -6,6 +6,8 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
 }
 
 * {
@@ -376,7 +378,7 @@ textarea {
 
 /* For media screen 1900px and up */
 @media screen and (min-width: 1900px) {
-    #page-content {
+    #main {
         margin: 0 10rem;}
  
     h1 {
