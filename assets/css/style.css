@@ -20,10 +20,11 @@ body {
     font-family: 'Quattrocento Sans', sans-serif;
 }
 
+
 header {
     height: auto;
     width: 100%;
-    background: url(../images/flowerpot1.jpg) no-repeat left;
+    background: url(../images/castlehero.jpeg) no-repeat left;
     background-size: cover;
     height: 20rem;
     display: flex;
@@ -52,9 +53,10 @@ a:hover {
 }
 
 h1 {
-    color: #172a3a;
+    color: #f6f7eb;
     font-family: 'Rock Salt', sans-serif;
     font-size: 10vw;
+    text-align: center;
 }
 
 h2 {
@@ -71,8 +73,15 @@ textarea {
     font-size: 1.6rem;
 }
 
-/* -----------ID's------------*/
-/*in the order they are in the page*/
+/*ID's in the order of appearance*/
+
+#headerbox {
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-content: center;
+}
 
 #navbar {
     background-color: #172a3a;
@@ -128,9 +137,8 @@ textarea {
     border-radius: 2%;
 }
 
-#application>p {
-    text-align: center;
-
+#application>div>p {
+    text-align:center;
 }
 
 #form {
@@ -176,8 +184,7 @@ textarea {
 }
 
 
-/* ---------Classes---------*/
-/*In alphabetical order*/
+/*Classes In alphabetical order*/
 
 .box {
     background-color: #f6f7eb;
@@ -318,10 +325,7 @@ textarea {
 
 
 
-/* For media screen 548px and under using default */
-
 /* For media screen 768px and up */
-
 @media screen and (min-width: 768px) {
 
     #navbar {
@@ -342,12 +346,10 @@ textarea {
 }
 
 /* For media screen 900px and up */
-
 @media screen and (min-width: 900px) {
 
     header {
-        background: url(../images/flowerpot1.jpg) no-repeat center;
-        background-size: cover;
+
         height: 45rem;
     }
 
@@ -356,7 +358,6 @@ textarea {
     }
 
     #headerbox {
-        margin-top: 2rem;
         justify-content: center;
     }
 
@@ -374,7 +375,6 @@ textarea {
 }
 
 /* For media screen 1900px and up */
-
 @media screen and (min-width: 1900px) {
     #page-content {
         margin: 0 10rem;}
