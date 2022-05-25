@@ -38,7 +38,10 @@ footer {
     padding: 2rem 2rem 20rem 2rem;
     background-color: #172a3a;
     color: #f6f7eb;
-    font-family: "Koulen", sans-serif;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    
 }
 
 a {
@@ -105,7 +108,10 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
+
+
 
 #locations-section {
     padding-top: 3rem;
@@ -191,7 +197,7 @@ textarea {
     border-radius: 2px;
     margin: 3rem;
     font-family: 'Koulen', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .button:hover {
@@ -204,6 +210,8 @@ textarea {
     padding: 5rem 2rem 5rem 2rem;
     border-style: solid;
     border-color: #b9314f;
+    max-width: 30rem;
+    height: auto;
     margin: 5rem 1rem 1rem 1rem;
     background-color: #eae7dc;
     display: flex;
@@ -275,8 +283,7 @@ textarea {
     display: flex;
     overflow: hidden;
     height: auto;
-    max-width: 90rem;
-    justify-content: center;
+    max-width: 70rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
@@ -339,6 +346,12 @@ textarea {
         height: 45rem;
     }
 
+    #bullet-section {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
     .section {
         padding: 5rem 5rem;
     }
@@ -346,6 +359,7 @@ textarea {
     #headerbox {
         justify-content: center;
     }
+    
 
     #locations img {
         max-width: 30vw;
