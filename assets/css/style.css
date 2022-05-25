@@ -38,11 +38,7 @@ footer {
     padding: 2rem 2rem 20rem 2rem;
     background-color: #172a3a;
     color: #f6f7eb;
-}
-
-footer p {
-    display: flex;
-    justify-content: center;
+    font-family: "Koulen", sans-serif;
 }
 
 a {
@@ -163,10 +159,6 @@ textarea {
     text-align: center;
 }
 
-#cc-section {
-    margin-bottom: 30rem;
-}
-
 #cc-section>div {
     display: flex;
     flex-direction: row;
@@ -175,29 +167,21 @@ textarea {
     padding: 0.5rem;
 }
 
-#footerbox {
-    display: flex;
-    justify-content: center;
-}
-
-#footerbox>a {
-    font-size: 2rem;
-    padding: 0.5rem;
-}
-
-
 /*Classes In alphabetical order*/
 
 .box {
     background-color: #f6f7eb;
     padding: 1rem;
     justify-content: center;
+    text-align: center;
     margin: 1rem;
     border-radius: 1%;
 }
 
 .box a {
-    color: #e85a4f;
+    color: #b9314f;
+    font-size: 3rem;
+    padding: 2rem;
 }
 
 .button {
