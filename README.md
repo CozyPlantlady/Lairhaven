@@ -150,6 +150,13 @@ Returning user:
  - Google Chrome developer tool Lighthouse to find any remaining errors and to make page more accessible. 
  - [Beautiful tools](https://beautifytools.com/javascript-validator.php) to check the JavaScript code.
 
+ ## Testing in different browsers and screens
+### Tested browsers:
+- **Chrome** This site is built using Google Chrome as a default browser. No known issues.
+- **Firefox** Tested, noticed problem with **Locations** not scaling as it should
+- **Microsoft Edge** Tested, no known issues
+- **Safari** Tested. Telephone number disappeared from site.
+
 ## Bugs and other issues
 
 - 20/5:After having meeting with my mentor 19.5.2022 it was decided to change the page structure from 3 different page to one main page. This would make the page more mobile friendly. At the same time the navigation bar would be set to be sitting at the top of the screen by all times. Because of this change there will be a lot of change to the code.
@@ -176,13 +183,15 @@ Also in wide screen (over 1900px wide) the pictures become four in a row. Trying
 
 - Hero image is too big, and takes a long time to load. Changing the image size to 1200px wide.
 
+- Telephone number disappeared on Safari. No current solution.
+
 
 ## DEPLOYMENT
 
-- Site was deployed to Github Pages.
-- From Github, I chose the current project and Settings.
-- On the leftside of the page there is Pages.
-- Choose the "Main" branch
+- Site was deployed to **Github Pages**.
+- From **Github**, I chose the current project *Lairhaven* and **Settings**.
+- On the leftside of the page there is **Pages**.
+- Choose the **"Main"** branch
 - Site will be published.
 - This site is published at https://cozyplantlady.github.io/Lairhaven/
 
