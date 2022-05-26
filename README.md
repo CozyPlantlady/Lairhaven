@@ -21,21 +21,20 @@ What is their goal? What problem does this product or feature solve for them?
 
 		
 What are some of the actions or operations they are likely to perform?
-- Customer care (online) to make the contract
 - Styling of location
 - Moving in (secretly, with ninjas)
 - Customer care (24/7, because evil never sleeps)
 
 ### User Stories:
-- As a customer, I need to be able to easily see what website offers
-- As a customer, I need to be able to contact the company
-- As a customer, I want to know more about the company
-- As a customer, I need the company to be reachable
+- As a user, I need to be able to easily see what website offers
+- As a user, I need to be able to contact the company
+- As a user, I want to know more about the company
+- As a user, I need the company to be reachable
 
 
 ## Design Choices
-- At the halfway of the project it was changed from three pages to have all the information in one page. This made it more mobile friendly.
-Also because of this I have added JavaScript code to make navigation bar visible when scrolling, even though it wasn't part of project 1 requirements.
+- Colors are chosen to be calm and harmonic. 
+- Header is dark and menacing, to get the attention of villains (even if company is neutral)
 
 ### My personal goals
 - To make writing commit messages a habit
@@ -92,9 +91,10 @@ Also because of this I have added JavaScript code to make navigation bar visible
 ### Contact
 - Information on how to contact Customer Care
 - There is more space here between Customer Care section and footer to make landing to the section after clicking navigation more smooth.
+- Links to Lairhaven socialmedia accounts. These are chosen to be more for Lairhaven sharing stories, and not that much for communicating with potential customers.
 
 ### Footer:
-- Links to Lairhaven socialmedia accounts, where they share stories and pictures of the locations
+
 ![lairhaven](assets/images/lairhaven-cc.jpeg "Customer care and footer")
 
 
@@ -114,7 +114,7 @@ Also because of this I have added JavaScript code to make navigation bar visible
  - Current points: Performance 83, Accessability 100, Best Practices 100, SEO 100.
  - Using Unicorn Revealer-app to find what part of the page sticks out.
 
-## ISSUES
+## Bugs
 
 - 20/5:After having meeting with my mentor 19.5.2022 it was decided to change the page structure from 3 different page to one main page. This would make the page more mobile friendly. At the same time the navigation bar would be set to be sitting at the top of the screen by all times. Because of this change there will be a lot of change to the code.
 
@@ -153,7 +153,7 @@ Also in wide screen (over 1900px wide) the pictures become four in a row. Trying
 ## CREDITS
 
 ### People:
-- Thank you to my very helpful mentor, Simen Daehlin. He has gien me a lot of good pointers on what I should do and how to improve my coding.
+- Thank you to my very helpful mentor, [Simen Daehlin](https://github.com/Eventyret/eventyret). He has given me a lot of good pointers on what I should do and how to improve my coding.
 
 ### Media:
 - Photos are open source from [Pxhere](https://pxhere.com/)
@@ -161,22 +161,7 @@ Also in wide screen (over 1900px wide) the pictures become four in a row. Trying
 ### Icons
 - All the icons were taken from [Font Awesome](https://fontawesome.com/)
 
-### COLOR SCHEME
--This color scheme was suggested by my mentor Simen Daehlin [colors](assets/images/colorscheme.jpeg! "Color scheme")
-
 ### Codes from other sources:
-
-- For clean start (From Love Running) 
-```
-    margin: 0;
-    padding: 0;
-    border: none;
-```
-- REM double reset from Simen Daehlin
-```
-html {font-size: 62,5%;}
-body {font-size: 1.6px}
-```
 
 - Code for Sticky Navbar from [W3schools tutorial](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
 ```

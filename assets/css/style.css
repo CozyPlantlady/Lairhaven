@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Koulen&family=Oswald&family=Quattrocento&family=Rock+Salt&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Quattrocento&family=Rock+Salt&display=swap');
 
 /* For media screen 499px and under this is the default */
 
@@ -204,6 +204,12 @@ textarea {
     background-color: #718f94;
 }
 
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
 
 .fancybox {
     font-family: 'Koulen', sans-serif;
@@ -212,11 +218,13 @@ textarea {
     border-color: #b9314f;
     max-width: 30rem;
     height: auto;
-    margin: 5rem 1rem 1rem 1rem;
+    margin: 5rem 1rem 2rem 1rem;
     background-color: #eae7dc;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fancybox ul {
@@ -346,6 +354,10 @@ textarea {
         height: 45rem;
     }
 
+    .center {
+        flex-direction: row;
+    }
+
     #bullet-section {
         display:flex;
         flex-wrap: wrap;
@@ -360,7 +372,6 @@ textarea {
         justify-content: center;
     }
     
-
     #locations img {
         max-width: 30vw;
     }
