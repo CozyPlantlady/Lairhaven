@@ -9,36 +9,34 @@ As a bonus this company does the hideout stylings to match the customers brand a
 
 ![lairhaven](assets/images/lairhaven-screen.jpeg "Lairhaven-webpage on different screen")
 
-## Design points
+## Design Strategy
 Design point: mobile-first.
 - All the information can be found from one page 
 - Goal is to make everything as flexible as possible
 - Minimum amount of code changes between different viewports
+- Colors are chosen to be calm and harmonic. 
+- Header is dark and menacing, to get the attention of villains (even if company is neutral)
 
 ### User goals:
 What is their goal? What problem does this product or feature solve for them?
 - User needs to find a safe lair. As a bonus this company does the styling and moving for them too.
 
-		
 What are some of the actions or operations they are likely to perform?
+- Showing a collection of different locations
+- Renting out location
 - Styling of location
-- Moving in (secretly, with ninjas)
+- Moving in/out (secretly, with ninjas)
 - Customer care (24/7, because evil never sleeps)
 
 ### User Stories:
-- As a user, I need to be able to easily see what website offers
-- As a user, I need to be able to contact the company
+
+New user:
+- As a new user, I need to be able to easily see what website offers
 - As a user, I want to know more about the company
-- As a user, I need the company to be reachable
+- As a user, I want to rent a location
 
-
-## Design Choices
-- Colors are chosen to be calm and harmonic. 
-- Header is dark and menacing, to get the attention of villains (even if company is neutral)
-
-### My personal goals
-- To make writing commit messages a habit
-- Problem solving by testing different options
+Returning user:
+- As a returning user, I want to contact the customer care
 
 
 # Features
@@ -108,6 +106,19 @@ What are some of the actions or operations they are likely to perform?
 
  # TESTING
 
+ ## User stories
+###New user:
+####As a new user, I need to be able to easily see what website offers
+     -
+
+- As a user, I want to know more about the company
+- As a user, I want to rent a location
+
+Returning user:
+- As a returning user, I want to contact the customer care
+
+
+## Validating HTML 5 and CSS 3
  - Tested with The W3C CSS Validation service. Congratulations! No Error Found.
  - Tested with nu HTML checker, all three pages. No errors or warnings to show.
  - Tested with Google Chrome developer tool Lighthouse to find any remaining errors and to make page more accessible. 
@@ -150,18 +161,18 @@ Also in wide screen (over 1900px wide) the pictures become four in a row. Trying
 
 
 
-## CREDITS
+# CREDITS
 
-### People:
+## People:
 - Thank you to my very helpful mentor, [Simen Daehlin](https://github.com/Eventyret/eventyret). He has given me a lot of good pointers on what I should do and how to improve my coding.
 
-### Media:
+## Media:
 - Photos are open source from [Pxhere](https://pxhere.com/)
 
-### Icons
+## Icons
 - All the icons were taken from [Font Awesome](https://fontawesome.com/)
 
-### Codes from other sources:
+## Codes from other sources:
 
 - Code for Sticky Navbar from [W3schools tutorial](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
 ```
@@ -189,3 +200,5 @@ Also in wide screen (over 1900px wide) the pictures become four in a row. Trying
     top: 0;
     width: 100%;
 ```
+
+## Thank you for reading!
