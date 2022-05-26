@@ -1,25 +1,40 @@
 # Lairhaven - website for heroes and villains looking for headquarters
 
-Lairhaven provides hideouts and headquarters for superheroes and villains.
+**Lairhaven** provides hideouts and headquarters for superheroes and villains.
 Company leases great locations that are safe and hidden even if they are in the middle of a city,
 but also looks for other locations like abandoned bunkers, caves, abandoned fairgrounds, castles, 
 abandoned factories and so on, since some customers prefer it that way.
 
 As a bonus this company does the hideout stylings to match the customers brand and helps with moving.
 
-![lairhaven](assets/images/lairhaven-screen.jpeg "Lairhaven-webpage on different screen")
+![lairhaven](assets/images/lairhaven-screens.jpeg "Lairhaven-webpage on different screens")
 
 ## Design Strategy
-Design point: mobile-first.
+- Mobile-first
 - All the information can be found from one page 
 - Goal is to make everything as flexible as possible
 - Minimum amount of code changes between different viewports
-- Colors are chosen to be calm and harmonic. 
-- Header is dark and menacing, to get the attention of villains (even if company is neutral)
 
-### User goals:
+
+## Colors
+- Colors are chosen to be calm and harmonic
+- Header is dark and menacing, to get the attention of villains (even if company is neutral)
+- Different background colors to separate different sections visually
+![lairhaven](assets/images/colorscheme.jpeg "colors")
+
+## Fonts:
+### Header:
+**Rock Salt** This handdrawn font gave a little menacing feeling when combined with dark background and light color
+
+### H2, Navigation bar, bulletpoint box, button
+**Koulen** This font is thick, and always uppercase. It feels dependable
+
+### Body
+**Quattrocento Sans** This font was used on everything else on the page. It´s easy to read
+
+## User goals:
 What is their goal? What problem does this product or feature solve for them?
-- User needs to find a safe lair. As a bonus this company does the styling and moving for them too.
+- User needs to find a safe lair. As a bonus this company does the styling and moving for them too
 
 What are some of the actions or operations they are likely to perform?
 - Showing a collection of different locations
@@ -41,91 +56,101 @@ Returning user:
 
 # Features
 
-### Header:
-- Company name and hero image are respinsive and change size on different viewports. Hero image is neutral to not disturb the visibility of the logo.
+## Header:
+- Company name and hero image are responsive and change size on different viewports. Hero image is dark but neutral to not disturb the visibility of the logo. User can see a silhouette of a castle in the background. Header gives the feeling of something nefarious.
 
-### Navigation bar:
-- Links to different section ID's (Welcome, Locations, Join, FAQ and Contact)
-- When hovered over, link changes color
-- Navigation bar is visible when scrolling down, to make it easier to jump between sections
+## Navigation bar:
+- Links to different section ID's (**Welcome, Locations, Join, FAQ and Contact**)
+- When hovered over, text changes color
+- Navigation bar is sticky and visible when scrolling down, to make it easier to switch between sections
 
 ![lairhaven](assets/images/lairhaven-header.jpeg "Header and navigation bar of Lairhaven-webpage")
 
-### Welcome:
+## Welcome:
 - Welcome text to tell visitor what the company is about
 - Bulletpoint list of services the site offers
-- Bulletpoint has icons from FontAwesome as bullets
+- Picture by the bulletpoint shows a castle coming out of mobile phone screen, to show the idea that user can find their dream headquartes by using their phone
 
 ![lairhaven](assets/images/lairhaven-welcome.jpeg "Welcome section")
 
 
-### Locations:
-- Pictures and descriptions of locations
+## Locations:
+- Pictures and descriptions of locations that user can rent
 - Each location box has a header, picture and description.
 - Depending of the width of the viewport locations are shown 1, 2 or 3 in a row
-- Pictures are meant to be thumbnails, and wont be bigger than 300px x 500px
+- Pictures are meant to be thumbnails, and wont be bigger than 300px/500px
 
 ![lairhaven](assets/images/lairhaven-location-computer.jpeg "Locations on computer screen")
 
 
-### Join us!:
-- Right under the Locations so customer can apply right away!
-- 5 fields where customer can fill their information, which of 3 are required
-- Choose interesting locations (checkbox)
-- Textarea to tell more about their wishes
-- User agreement checkboxes, one required
-- Button to send the form
+## Join us!:
+- Right under the **Locations** so customer can apply right away to rent the location they are most interested
+- 5 fields where customer can fill their information, which of 3 are required. User can choose if they want to give their alias.
+- Choose location (checkbox)
+- Textarea to tell more about their wishes, like styling services.
+- User agreement checkboxes, requires agreement to sent the form. Marketing is not required.
+- Button to send the form. *Note: Would like to have a pop-up window here that tells the user that form has been sent.*
 
 ![lairhaven](assets/images/lairhaven-join.jpeg "Form on Ipad screen")
 
 
-### FAQ:
+## FAQ:
 - Most asked questions and company history
 - Tells the customer more about the company 
 
 ![lairhaven](assets/images/lairhaven-faqs.jpeg "Lairhaven faq's")
 
 
-### Contact
+## Contact
 - Information on how to contact Customer Care
-- There is more space here between Customer Care section and footer to make landing to the section after clicking navigation more smooth.
-- Links to Lairhaven socialmedia accounts. These are chosen to be more for Lairhaven sharing stories, and not that much for communicating with potential customers.
+- Links to Lairhaven's social media accounts. These are chosen for sharing stories of different locations.
 
-### Footer:
-
+## Footer:
+- Footer has a message from creator.
 ![lairhaven](assets/images/lairhaven-cc.jpeg "Customer care and footer")
 
 
 ### Possible coming features:
+- A popup window that says "Thank you for applying! We will be in touch soon" after user has sent the application.
 - Articles: Couple of articles with few quick tips and a pictures.
-" Dark Gothic is not for villains only!"
-- Customer feedback: Couple of opinions from customers (can have some fun here)
-- Different color schemes for heroes and villains, can choose by clicking a button in menu (This requires JavaScript si I skipped it)
+" Dark Gothic is not for villains only!".
+- Customer feedback section: Couple of reviews from customers (can have some fun here).
+- Different color schemes for heroes and villains, can choose by clicking a button in menu.
 - New locations, like student apartments for minions and sidekicks. 
-- Dropdown menu for FAQ-section, to hide the answers. Then it's more space to have more questions
+- Dropdown menu for FAQ-section, to show the questions but hide the answers. This gives space to have more questions.
 
  # TESTING
 
  ## User stories
-###New user:
-####As a new user, I need to be able to easily see what website offers
-     -
+### New user:
+#### As a new user, I need to be able to easily see what website offers
+     - When landing, user sees right away navigation bar that shows different sections.
+     - When landing, user sees Welcome text that tells what the site offers.
+     - In Welcome-section there is a bullet point that shows quickly what different services company offers.
 
-- As a user, I want to know more about the company
-- As a user, I want to rent a location
+#### As a user, I want to know more about the company
+     - When landing, user sees the welcome text that tells what the company offers.
+     - When scrolling down or by clicking FAQ on the navigation bar user gets to the FAQ-section.
+     - If customer wants to contact the company to know more, they can contact the customer service by scrolling down to right section or by clicking "Contact" in navigation bar.
 
-Returning user:
-- As a returning user, I want to contact the customer care
+#### As a user, I want to rent a location
+     - After landing, user can scroll down or click navigation bar to go to Locations to see all the currently available locations.
+     - By continuing to scroll, or by clicking "Join Us" on navigation bar user gets to application form.
+     - User needs to give at least first name, last name, email address and click to consent to send the application. Other fields are optional.
+
+
+### Returning user:
+#### As a returning user, I want to contact the customer care
+     - When landing, user can scroll down or click the navigation bar "Contact" to move to Customer Care section. User can choose to mail or call customer service.
 
 
 ## Validating HTML 5 and CSS 3
- - Tested with The W3C CSS Validation service. Congratulations! No Error Found.
- - Tested with nu HTML checker, all three pages. No errors or warnings to show.
- - Tested with Google Chrome developer tool Lighthouse to find any remaining errors and to make page more accessible. 
- - Current points: Performance 83, Accessability 100, Best Practices 100, SEO 100.
- - Using Unicorn Revealer-app to find what part of the page sticks out.
+ - Tested with [The W3C CSS Validation service](https://jigsaw.w3.org/css-validator/). Congratulations! No Error Found.
+ - Tested with [The W3C Markup Validation service](https://validator.w3.org/). No errors or warnings to show.
+ - Google Chrome developer tool Lighthouse to find any remaining errors and to make page more accessible. 
+ - [Beautiful tools](https://beautifytools.com/javascript-validator.php) to check the JavaScript code.
 
-## Bugs
+## Bugs and other issues
 
 - 20/5:After having meeting with my mentor 19.5.2022 it was decided to change the page structure from 3 different page to one main page. This would make the page more mobile friendly. At the same time the navigation bar would be set to be sitting at the top of the screen by all times. Because of this change there will be a lot of change to the code.
 
@@ -145,9 +170,11 @@ Changed the hero-image to more neutral one, so that it doesnt matter if the head
 - Found out with CSS validator that my double reset code for fonts (to make the default font size 10px and makes it easier to use rem as measurement) was wrong this whole time. I had written it as fontsize: 62,5% instead of 62.5%. Had to make sure it is right this time.
 
 - 23/5: Bug: Tested page in different viewports and browsers, and found a bug on Firefox that locations-boxes have different sizes depending on how much text they have.
-Also in wide screen (over 1900px wide) the pictures become four in a row. Trying to fix this by adding more margin.
-- ~~After clicking navbar and jumping to different parts on a page h2 is in different levels.~~ Fixed most of it by making sure that connected ID was in the section and not in inner dividers. Found the bug from the code, added padding to h2 and corrected the typo.
+Also in wide screen (over 1900px wide) the pictures become four in a row. Trying to fix this by adding more margin. Cuurently unsolved.
 
+- ~~After clicking navbar and jumping to different parts on a page h2 is in different levels.~~ Fixed most of it by making sure that connected ID was in the outmost section and not in inner dividers. Found the bug from the code, added padding to h2 and corrected the typo.
+
+- Hero image is too big, and takes a long time to load. Changing the image size to 1200px wide.
 
 
 ## DEPLOYMENT
