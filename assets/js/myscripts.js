@@ -2,8 +2,8 @@ window.onscroll = function () {
     myFunction();
 };
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+const navbar = document.getElementById("navbar");
+const sticky = navbar.offsetTop;
 
 function myFunction() {
 if (window.pageYOffset >= sticky) {
