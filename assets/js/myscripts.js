@@ -1,14 +1,14 @@
 window.onscroll = function () {
-    myFunction();
+    myFunction()
 };
 
-const navbar = document.getElementById("navbar");
-const sticky = navbar.offsetTop;
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
 
 function myFunction() {
-if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-} else {
-    navbar.classList.remove("sticky");
-}
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
 }
