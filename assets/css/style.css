@@ -101,7 +101,7 @@ textarea {
     display: flex;
     flex-flow: row;
     justify-content: flex-end;
-    align-items: center;
+
 }
 
 #welcome {
