@@ -159,34 +159,35 @@ Returning user:
 
 ## Bugs and other issues
 
-- 20/5:After having meeting with my mentor 19.5.2022 it was decided to change the page structure from 3 different page to one main page. This would make the page more mobile friendly. At the same time the navigation bar would be set to be sitting at the top of the screen by all times. Because of this change there will be a lot of change to the code.
+- 20/5:After having meeting with my mentor 19.5.2022 it was decided to change the page structure from 3 different page to one main page. This would make the page more mobile friendly. At the same time the navigation bar would be set to be sitting at the top of the screen by all times. Because of this change there will be a lot of change to the code. ***Fixed***
 
-- 21/5: One of the main issues after moving all the information to one page was re-do navigation bar. It needed to have links to all the different sections to the page, and to make navigating in the site easier it should be accessible whole time. Hence, it needed to be sticky and stuck at the top of the page. I havent yet learned JavaScript to do this, so I have taken the needed code from W3 Schools tutorial.
--~~Currently having problem to make navbar to move up when scrolling down, so navbar will be sitting over the header for now.~~ *Fixed*
+- 21/5: One of the main issues after moving all the information to one page was re-do navigation bar. It needed to have links to all the different sections to the page, and to make navigating in the site easier it should be accessible whole time. Hence, it needed to be sticky and stuck at the top of the page. I havent yet learned JavaScript to do this, so I have taken the needed code from W3 Schools tutorial. ***Fixed***
+
+-~~Currently having problem to make navbar to move up when scrolling down, so navbar will be sitting over the header for now.~~ ***Fixed***
 
 - 22/5: Adding margin to the page when screen is wider than 950px. Have to exclude Locations from the .section rule and create  ID locations-section for it.
-Changed the hero-image to more neutral one, so that it doesnt matter if the header covers part of it in different viewports. Moved original image lower down since it is still a good image that gives information of the site.
+Changed the hero-image to more neutral one, so that it doesnt matter if the header covers part of it in different viewports. Moved original image lower down since it is still a good image that gives information of the site. ***Fixed***
 
-- ~~Problem: Unexpected space between sections, need to locate the problem.~~ *Found the typo from CSS.* -Fixed-
+- ~~Problem: Unexpected space between sections, need to locate the problem.~~ Found the typo from CSS. ***Fixed***
 
-- Got the sticky navbar working in one line but then its too wide for the narrower devices. Solution: Smaller font to smaller screens (1.2rem), change to 1.6rem screen 499px>. -Fixed-
+- Got the sticky navbar working in one line but then its too wide for the narrower devices. Solution: Smaller font to smaller screens (1.2rem), change to 1.6rem screen 499px>. ***Fixed***
 
-- Using Google Chrome Lighthouse developer tool to check for problems. Found dublicate ID "consent". Changed outer div ID to "form-consent" -Fixed-
+- Using Google Chrome Lighthouse developer tool to check for problems. Found dublicate ID "consent". Changed outer div ID to "form-consent" ***Fixed***
 
-- Found out with CSS validator that my double reset code for fonts (to make the default font size 10px and makes it easier to use rem as measurement) was wrong this whole time. I had written it as fontsize: 62,5% instead of 62.5%. Had to make sure it is right this time.
+- Found out with CSS validator that my double reset code for fonts (to make the default font size 10px and makes it easier to use rem as measurement) was wrong this whole time. I had written it as fontsize: 62,5% instead of 62.5%. Had to make sure it is right this time. ***Fixed***
 
 - 23/5: Bug: Tested page in different viewports and browsers, and found a bug on Firefox that locations-boxes have different sizes depending on how much text they have.
 Also in wide screen (over 1900px wide) the pictures become four in a row. Trying to fix this by adding more margin. Currently unsolved.
 
-- ~~After clicking navbar and jumping to different parts on a page h2 is in different levels.~~ Fixed most of it by making sure that connected ID was in the outmost section and not in inner dividers. Found the bug from the code, added padding to h2 and corrected the typo.
+- ~~After clicking navbar and jumping to different parts on a page h2 is in different levels.~~ Fixed most of it by making sure that connected ID was in the outmost section and not in inner dividers. Found the bug from the code, added padding to h2 and corrected the typo. ***Fixed***
 
-- Hero image is too big, and takes a long time to load. Changing the image size to 1200px wide.
+- Hero image is too big, and takes a long time to load. Changing the image size to 1200px wide. ***Fixed***
 
 - Microsoft Edge: locationbox being as wide as the text in paragraph. Currently unsolved.
 
 - Safari: Customer Care telephone number disappeared. Currently unsolved.
 
-- Navigation bar is sticky when tested on Gitpod, but when pushed to Github and opened in new page it´s not sticky. Currently unsolved. Since this is not a a part that will get any grade, I´ll leave it at that and try again in next project. Currently unsolved.
+- Navigation bar is sticky when tested on Gitpod, but when pushed to Github and opened in new page it´s not sticky. ~~Since this is not a a part that will get any grade, I´ll leave it at that and try again in next project. Currently unsolved.~~ Found the typo in relative path to link the js. file. ***Fixed***
 
 
 ## DEPLOYMENT
