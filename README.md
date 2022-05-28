@@ -1,6 +1,6 @@
 # Lairhaven - website for heroes and villains looking for headquarters
 
-**Lairhaven** provides hideouts and headquarters for superheroes and villains.
+**Lairhaven** provides hideouts and headquarters for villains (and superheroes).
 Company leases great locations that are safe and hidden even if they are in the middle of a city,
 but also looks for other locations like abandoned bunkers, caves, abandoned fairgrounds, castles, 
 abandoned factories and so on, since some customers prefer it that way.
@@ -9,28 +9,11 @@ As a bonus this company does the hideout stylings to match the customers brand a
 
 ![lairhaven](assets/images/lairhaven-screens.jpeg "Lairhaven-webpage on different screens")
 
-## Design Strategy
+# Strategy
 - Mobile-first
 - All the information can be found from one page 
 - Goal is to make everything as flexible as possible
 - Minimum amount of code changes between different viewports
-
-
-## Colors
-- Colors are chosen to be calm and harmonic
-- Header is dark and menacing, to get the attention of villains (even if company is neutral)
-- Different background colors to separate different sections visually
-![lairhaven](assets/images/colorscheme.jpeg "colors")
-
-## Fonts:
-### Header:
-**Rock Salt** This handdrawn font gave a little menacing feeling when combined with dark background and light color
-
-### H2, Navigation bar, bulletpoint box, button
-**Koulen** This font is thick, and always uppercase. It feels dependable
-
-### Body
-**Quattrocento Sans** This font was used on everything else on the page. It´s easy to read
 
 ## User goals:
 What is their goal? What problem does this product or feature solve for them?
@@ -54,7 +37,7 @@ Returning user:
 - As a returning user, I want to contact the customer care
 
 
-# Features
+# Structure
 
 ## Header:
 - Company name and hero image are responsive and change size on different viewports. Hero image is dark but neutral to not disturb the visibility of the logo. User can see a silhouette of a castle in the background. Header gives the feeling of something nefarious.
@@ -119,6 +102,23 @@ Returning user:
 - New locations, like student apartments for minions and sidekicks. 
 - Dropdown menu for FAQ-section, to show the questions but hide the answers. This gives space to have more questions.
 
+# Design:
+## Colors
+- Colors are chosen to be calm and harmonic
+- Header is dark and menacing, to get the attention of villains (even if company is neutral)
+- Different background colors to separate different sections visually
+![lairhaven](assets/images/colorscheme.jpeg "colors")
+
+## Fonts:
+### Header:
+**Rock Salt** This handdrawn font gave a little menacing feeling when combined with dark background and light color
+
+### H2, Navigation bar, bulletpoint box, button
+**Koulen** This font is thick, and always uppercase. It feels dependable
+
+### Body
+**Quattrocento Sans** This font was used on everything else on the page. It´s easy to read
+
  # TESTING
 
  ## User stories
@@ -153,9 +153,9 @@ Returning user:
  ## Testing in different browsers and screens
 ### Tested browsers:
 - **Chrome** This site is built using Google Chrome as a default browser. No known issues.
-- **Firefox** Tested, noticed problem with **Locations** not scaling as it should
+- **Firefox** Tested, noticed problem with **Locations** not scaling as it should and locationbox being as wide as the text in paragraph. No known fix.
 - **Microsoft Edge** Tested, no known issues
-- **Safari** Tested. Telephone number disappeared from site.
+- **Safari** Tested. Telephone number in Customer Care disappeared from site.
 
 ## Bugs and other issues
 
@@ -164,10 +164,9 @@ Returning user:
 - 21/5: One of the main issues after moving all the information to one page was re-do navigation bar. It needed to have links to all the different sections to the page, and to make navigating in the site easier it should be accessible whole time. Hence, it needed to be sticky and stuck at the top of the page. I havent yet learned JavaScript to do this, so I have taken the needed code from W3 Schools tutorial.
 -~~Currently having problem to make navbar to move up when scrolling down, so navbar will be sitting over the header for now.~~ *Fixed*
 
-- Tried to add a second header text to header. Too many different fonts.
-
 - 22/5: Adding margin to the page when screen is wider than 950px. Have to exclude Locations from the .section rule and create  ID locations-section for it.
 Changed the hero-image to more neutral one, so that it doesnt matter if the header covers part of it in different viewports. Moved original image lower down since it is still a good image that gives information of the site.
+
 - ~~Problem: Unexpected space between sections, need to locate the problem.~~ *Found the typo from CSS.* -Fixed-
 
 - Got the sticky navbar working in one line but then its too wide for the narrower devices. Solution: Smaller font to smaller screens (1.2rem), change to 1.6rem screen 499px>. -Fixed-
@@ -177,13 +176,17 @@ Changed the hero-image to more neutral one, so that it doesnt matter if the head
 - Found out with CSS validator that my double reset code for fonts (to make the default font size 10px and makes it easier to use rem as measurement) was wrong this whole time. I had written it as fontsize: 62,5% instead of 62.5%. Had to make sure it is right this time.
 
 - 23/5: Bug: Tested page in different viewports and browsers, and found a bug on Firefox that locations-boxes have different sizes depending on how much text they have.
-Also in wide screen (over 1900px wide) the pictures become four in a row. Trying to fix this by adding more margin. Cuurently unsolved.
+Also in wide screen (over 1900px wide) the pictures become four in a row. Trying to fix this by adding more margin. Currently unsolved.
 
 - ~~After clicking navbar and jumping to different parts on a page h2 is in different levels.~~ Fixed most of it by making sure that connected ID was in the outmost section and not in inner dividers. Found the bug from the code, added padding to h2 and corrected the typo.
 
 - Hero image is too big, and takes a long time to load. Changing the image size to 1200px wide.
 
-- Telephone number disappeared on Safari. No current solution.
+- Microsoft Edge: locationbox being as wide as the text in paragraph. Currently unsolved.
+
+- Safari: Customer Care telephone number disappeared. Currently unsolved.
+
+- Navigation bar is sticky when tested on Gitpod, but when pushed to Github and opened in new page it´s not sticky. Currently unsolved. Since this is not a a part that will get any grade, I´ll leave it at that and try again in next project. Currently unsolved.
 
 
 ## DEPLOYMENT
@@ -191,16 +194,15 @@ Also in wide screen (over 1900px wide) the pictures become four in a row. Trying
 - Site was deployed to **Github Pages**.
 - From **Github**, I chose the current project *Lairhaven* and **Settings**.
 - On the leftside of the page there is **Pages**.
-- Choose the **"Main"** branch
+- Choose the **Main** branch
 - Site will be published.
 - This site is published at https://cozyplantlady.github.io/Lairhaven/
-
 
 
 # CREDITS
 
 ## People:
-- Thank you to my very helpful mentor, [Simen Daehlin](https://github.com/Eventyret/eventyret). He has given me a lot of good pointers on what I should do and how to improve my coding.
+- Thank you to my very helpful mentor, [Simen Daehlin](https://github.com/Eventyret/eventyret). He has given me a lot of good pointers on what I should do and how to improve my coding, as well as ideas for the style.
 
 ## Media:
 - Photos are open source from [Pxhere](https://pxhere.com/)
